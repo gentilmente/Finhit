@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3px" height="55px" viewBox="0 0 3 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Info left frame@3x</title>
+    <g id="6.-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6.10-Callout" transform="translate(-32.000000, -368.000000)" fill="#4DB6AC">
+            <g id="CHECKBOXES" transform="translate(31.000000, 213.000000)">
+                <g id="Info-Callout-Copy-3" transform="translate(0.536424, 155.000000)">
+                    <g id="Field" transform="translate(0.463576, 0.000000)">
+                        <path d="M1.13085206,1.72344229 L3,0.5 L3,0.5 L3,54.5 L1.72240235,54.0818771 C0.694921844,53.7456108 5.23348977e-15,52.7869908 0,51.7058843 L0,3.81519608 C-3.37204287e-17,2.97183475 0.425210364,2.18531685 1.13085206,1.72344229 Z" id="Info-left-frame"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

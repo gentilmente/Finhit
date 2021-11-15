@@ -1,0 +1,33 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+
+  @font-face {
+  font-family: $font_name;
+  font-display: swap;
+  src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+  font-weight: #{$weight};
+  font-style: #{$style};
+  }
+}
+
+@import "fonts";
+
+/* Fonts */
+$Roboto: 'Roboto', sans-serif;
+$RobotoCondensed: 'Roboto Condensed', sans-serif;
+
+$main_font: $Roboto;
+$second_font: $RobotoCondensed;
+$third_font: $Roboto;
+
+$background: #fdfdfd;
+$black: #000;
+$almostBlack: #0d0e10;
+$dark: #333;
+$white: #fff;
+$info: #40c4ff;
+$darkBlue: #002e45;
+$danger: #ff5252;
+$success: #4db6ac;
+$primary: #1467C8;
+$warning: #FFD740;
+$secondary: #afafaf;

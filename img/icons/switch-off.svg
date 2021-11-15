@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="28px" viewBox="0 0 52 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Off@3x</title>
+    <g id="5.-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.6-Settings" transform="translate(-270.000000, -814.000000)" stroke="#000000" stroke-width="0.5">
+            <g id="PROFILE-SETTINGS" transform="translate(31.000000, 642.000000)">
+                <g id="Private-profile" transform="translate(21.000000, 165.000000)">
+                    <g id="Switch-On/Off" transform="translate(207.000000, 0.000000)">
+                        <g id="Off" transform="translate(11.000000, 7.500000)">
+                            <rect id="White-Background" stroke-opacity="0.212740385" fill="#E7E7E7" x="0.25" y="0.25" width="51.5" height="26.5" rx="13.25"></rect>
+                            <circle id="Knob" stroke-opacity="0.238209544" fill="#FFFFFF" cx="14" cy="13.5" r="12.25"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

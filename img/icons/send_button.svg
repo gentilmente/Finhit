@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="31px" viewBox="0 0 30 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>send_button@3x</title>
+    <g id="5.-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.5.1-Notification-Details" transform="translate(-305.000000, -715.000000)">
+            <g id="Message-box" transform="translate(0.000000, 700.000000)">
+                <g id="send_button" transform="translate(305.000000, 15.786667)">
+                    <ellipse id="Oval" fill="#40C4FF" cx="15" cy="14.8" rx="15" ry="14.8"></ellipse>
+                    <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="7" y="19.8"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

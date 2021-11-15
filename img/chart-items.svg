@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="231" viewBox="0 0 312 231">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <path d="M0 1H310V229H0z" transform="translate(-32 -342) translate(32 318) translate(0 24)"/>
+                    <g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M7 0L7 203" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(20.5 6) translate(.5)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(20.5 6) translate(.5)">
+                                <tspan x="0" y="223">Jan</tspan>
+                            </text>
+                        </g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M7 0L7 203" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(20.5 6) translate(68.5)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(20.5 6) translate(68.5)">
+                                <tspan x="0" y="223">Feb</tspan>
+                            </text>
+                        </g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M7.5 0L7.5 203" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(20.5 6) translate(136)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(20.5 6) translate(136)">
+                                <tspan x="0" y="223">Mar</tspan>
+                            </text>
+                        </g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M6.5 0L6.5 203" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(20.5 6) translate(205)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(20.5 6) translate(205)">
+                                <tspan x="0" y="223">Apr</tspan>
+                            </text>
+                        </g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M17.5 0L17.5 203" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(20.5 6) translate(271)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(20.5 6) translate(271)">
+                                <tspan x="0" y="223">May</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M26 5L308 5" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(0 203.5)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(0 203.5)">
+                                <tspan x="6.58" y="8.419">0</tspan>
+                            </text>
+                        </g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M25 5L307 5" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(1 162.5)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(1 162.5)">
+                                <tspan x=".95" y="8.419">20</tspan>
+                            </text>
+                        </g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M25 5L307 5" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(1 121.5)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(1 121.5)">
+                                <tspan x=".95" y="8.419">40</tspan>
+                            </text>
+                        </g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M25 5L307 5" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(1 81.5)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(1 81.5)">
+                                <tspan x=".95" y="8.419">60</tspan>
+                            </text>
+                        </g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M25 5L307 5" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(1 40.5)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(1 40.5)">
+                                <tspan x=".95" y="8.419">80</tspan>
+                            </text>
+                        </g>
+                        <g>
+                            <path stroke="#F0F0F0" d="M23 5L305 5" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(3 .5)"/>
+                            <text fill="#A3A3A3" font-family="Roboto-Regular, Roboto" font-size="10" transform="translate(-32 -342) translate(32 318) translate(0 24) translate(2 .5) translate(3 .5)">
+                                <tspan x="0" y="10">100</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g transform="translate(-32 -342) translate(32 318) translate(0 24) translate(24 26)">
+                        <path stroke="#FF5252" stroke-width="2" d="M4 170S38.5 57 73 57s34.5-53 69-53 34.5 65 69 65 69-25 69-25"/>
+                        <circle cx="4" cy="170" r="4" fill="#FF5252"/>
+                        <circle cx="72" cy="57" r="4" fill="#FF5252"/>
+                        <circle cx="140" cy="4" r="4" fill="#FF5252"/>
+                        <circle cx="208" cy="69" r="4" fill="#FF5252"/>
+                        <circle cx="281" cy="42" r="4" fill="#FF5252"/>
+                    </g>
+                    <g transform="translate(-32 -342) translate(32 318) translate(0 24) translate(24 127)">
+                        <path stroke="#40C4FF" stroke-width="2" d="M4 33S38.5 4 73 4s34.5 21 69 21 34.5 57 69 57 69-63 69-63"/>
+                        <circle cx="4" cy="33" r="4" fill="#40C4FF"/>
+                        <circle cx="72" cy="4" r="4" fill="#40C4FF"/>
+                        <circle cx="140" cy="25" r="4" fill="#40C4FF"/>
+                        <circle cx="208" cy="82" r="4" fill="#40C4FF"/>
+                        <circle cx="281" cy="18" r="4" fill="#40C4FF"/>
+                    </g>
+                    <g transform="translate(-32 -342) translate(32 318) translate(0 24) translate(24 20)">
+                        <path stroke="#4DB6AC" stroke-width="2" d="M4 4s34.5 20 69 20 35.5 76 70 76 33.5-7 68-7 69 61 69 61"/>
+                        <circle cx="4" cy="4" r="4" fill="#4DB6AC"/>
+                        <circle cx="72" cy="24" r="4" fill="#4DB6AC"/>
+                        <circle cx="138" cy="99" r="4" fill="#4DB6AC"/>
+                        <circle cx="208" cy="93" r="4" fill="#4DB6AC"/>
+                        <circle cx="281" cy="155" r="4" fill="#4DB6AC"/>
+                    </g>
+                    <g transform="translate(-32 -342) translate(32 318) translate(0 24) translate(24 44)">
+                        <path stroke="#002E45" stroke-width="2" d="M4 114s34.25-88 68.5-88 32.25 14 66.5 14 36.25-36 70.5-36H278"/>
+                        <circle cx="4" cy="114" r="4" fill="#002E45"/>
+                        <circle cx="72" cy="26" r="4" fill="#002E45"/>
+                        <circle cx="138" cy="40" r="4" fill="#002E45"/>
+                        <circle cx="208" cy="4" r="4" fill="#002E45"/>
+                        <circle cx="281" cy="4" r="4" fill="#002E45"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

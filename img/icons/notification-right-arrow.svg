@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Notification Right Arrow@3x</title>
+    <g id="5.-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.5-Notifications" transform="translate(-55.000000, -322.000000)">
+            <g id="2nd-Notification" transform="translate(32.000000, 292.000000)">
+                <g id="Group" transform="translate(19.000000, 25.000000)">
+                    <g id="Right-Arrow" transform="translate(11.500000, 12.000000) rotate(-180.000000) translate(-11.500000, -12.000000) ">
+                        <polygon id="Shape" points="0 0 23 0 23 24 0 24"></polygon>
+                        <path d="M11.5,5.29166667 C12.0522847,5.29166667 12.5,5.73938192 12.5,6.29166667 L12.5,17.7083333 C12.5,18.2606181 12.0522847,18.7083333 11.5,18.7083333 C10.9477153,18.7083333 10.5,18.2606181 10.5,17.7083333 L10.5,6.29166667 C10.5,5.73938192 10.9477153,5.29166667 11.5,5.29166667 Z" id="Line" fill="#000000" transform="translate(11.500000, 12.000000) scale(-1, 1) rotate(-90.000000) translate(-11.500000, -12.000000) "></path>
+                        <path d="M3.33210447,15.5526417 C2.94158018,15.9268941 2.3084152,15.9268941 1.91789091,15.5526417 C1.52736661,15.1783892 1.52736661,14.5716061 1.91789091,14.1973537 L7.91789091,8.44735369 C8.29646984,8.08454887 8.90605628,8.07185515 9.30072232,8.4185583 L15.3007223,13.6893916 C15.7078413,14.0470344 15.7353442,14.6532448 15.3621518,15.0434005 C14.9889594,15.4335562 14.356392,15.4599131 13.9492731,15.1022704 L8.65507343,10.4514631 L3.33210447,15.5526417 Z" id="Path" fill="#000000" fill-rule="nonzero" transform="translate(8.625001, 11.999997) scale(-1, -1) rotate(90.000000) translate(-8.625001, -11.999997) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

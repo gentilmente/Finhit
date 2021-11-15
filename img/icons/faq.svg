@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="65px" viewBox="0 0 72 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>faq@3x</title>
+    <g id="5.-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.8-FAQ" transform="translate(-151.000000, -117.000000)">
+            <g id="Group" transform="translate(151.000000, 117.000000)">
+                <g transform="translate(59.625000, 52.672414)" stroke="#37474F" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="0.5625" y1="1.12068966" x2="6.1875" y2="1.12068966" id="Path"></line>
+                    <line x1="8.4375" y1="1.12068966" x2="9.5625" y2="1.12068966" id="Path"></line>
+                </g>
+                <g transform="translate(42.750000, 0.000000)" stroke="#37474F" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="9.5625" y1="0.560344828" x2="3.9375" y2="0.560344828" id="Path"></line>
+                    <line x1="1.6875" y1="0.560344828" x2="0.5625" y2="0.560344828" id="Path"></line>
+                </g>
+                <g transform="translate(0.000000, 3.362069)">
+                    <g transform="translate(5.625000, 0.000000)">
+                        <path d="M27.5625,17.9310345 C27.45,17.9310345 27.3375,17.9310345 27.225,17.9310345 C25.9875,12.4396552 21.0375,8.40517241 15.1875,8.40517241 C9.3375,8.40517241 4.3875,12.4396552 3.15,17.9310345 C3.0375,17.9310345 2.925,17.9310345 2.8125,17.9310345 C1.2375,17.9310345 0,19.1637931 0,20.7327586 C0,22.3017241 1.2375,23.5344828 2.8125,23.5344828 C2.925,23.5344828 3.0375,23.5344828 3.15,23.5344828 C4.3875,29.0258621 9.3375,33.0603448 15.1875,33.0603448 C21.0375,33.0603448 25.9875,29.0258621 27.225,23.5344828 C27.3375,23.5344828 27.45,23.5344828 27.5625,23.5344828 C29.1375,23.5344828 30.375,22.3017241 30.375,20.7327586 C30.375,19.1637931 29.1375,17.9310345 27.5625,17.9310345 Z" id="Path" stroke="#37474F" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M3.9375,19.612069 L3.375,19.612069 L3.375,12.3275862 L6.75,12.3275862 L6.75,16.8103448 C6.75,18.3793103 5.5125,19.612069 3.9375,19.612069 Z" id="Path" stroke="#37474F" fill="#FFB300" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M23.0625,12.3275862 L3.375,12.3275862 L3.375,12.3275862 C3.375,7.73275862 7.2,3.92241379 11.8125,3.92241379 L17.6625,3.92241379 C20.1375,3.92241379 22.5,3.36206897 24.75,2.35344828 L28.6875,0.560344828 L28.6875,6.72413793 C28.6875,9.86206897 26.2125,12.3275862 23.0625,12.3275862 Z" id="Path" stroke="#37474F" fill="#FFB300" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M23.625,12.2155172 L23.625,16.8103448 C23.625,18.3793103 24.8625,19.612069 26.4375,19.612069 L27,19.612069 L27,10.7586207 C26.1,11.5431034 24.975,12.1034483 23.625,12.2155172 Z" id="Path" stroke="#37474F" fill="#FFB300" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g transform="translate(10.125000, 17.931034)" fill="#37474F" fill-rule="nonzero" id="Oval">
+                            <ellipse cx="9" cy="1.12068966" rx="1.125" ry="1.12068966"></ellipse>
+                            <ellipse cx="1.125" cy="1.12068966" rx="1.125" ry="1.12068966"></ellipse>
+                        </g>
+                        <path d="M11.25,24.6551724 C13.5,26.8965517 16.9875,26.8965517 19.2375,24.6551724" id="Path" stroke="#37474F" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <g transform="translate(0.000000, 31.379310)" id="Path" stroke="#37474F" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="9.5625" y1="29.6982759" x2="9.5625" y2="18.4913793"></line>
+                        <path d="M41.0625,29.6982759 L41.0625,15.0172414 C41.0625,11.6551724 39.0375,8.62931034 36,7.28448276 L25.3125,2.68965517 L20.8125,9.4137931 L16.3125,2.68965517 L5.625,7.39655172 C2.475,8.74137931 0.5625,11.7672414 0.5625,15.1293103 L0.5625,29.8103448"></path>
+                        <line x1="32.0625" y1="29.6982759" x2="32.0625" y2="18.4913793"></line>
+                        <g transform="translate(13.500000, 2.241379)">
+                            <polygon points="0.5625 9.52586207 7.3125 7.28448276 2.8125 0.560344828"></polygon>
+                            <polygon points="11.8125 0.560344828 7.3125 7.28448276 14.0625 9.52586207"></polygon>
+                        </g>
+                        <path d="M20.8125,1.68103448 C19.2375,1.68103448 17.6625,1.34482759 16.3125,0.784482759 L16.3125,2.80172414 L20.8125,9.52586207 L25.3125,2.80172414 L25.3125,0.784482759 C23.9625,1.34482759 22.3875,1.68103448 20.8125,1.68103448 Z"></path>
+                        <line x1="20.8125" y1="29.6982759" x2="20.8125" y2="9.52586207"></line>
+                    </g>
+                </g>
+                <g transform="translate(41.625000, 28.017241)">
+                    <ellipse id="Oval" stroke="#37474F" fill="#9CCC65" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="11.8125" cy="11.2068966" rx="11.25" ry="11.2068966"></ellipse>
+                    <g transform="translate(7.875000, 4.482759)">
+                        <path d="M0.5625,3.92241379 C0.5625,2.01724138 2.025,0.560344828 3.9375,0.560344828 C5.85,0.560344828 7.3125,2.01724138 7.3125,3.92241379 C7.3125,5.82758621 5.85,7.28448276 3.9375,7.28448276 L3.9375,8.96551724" id="Path" stroke="#37474F" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <ellipse id="Oval" fill="#37474F" fill-rule="nonzero" cx="3.9375" cy="12.1034483" rx="1" ry="1"></ellipse>
+                    </g>
+                </g>
+                <g transform="translate(48.375000, 3.362069)">
+                    <ellipse id="Oval" stroke="#37474F" fill="#FF7043" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" cx="11.8125" cy="11.7672414" rx="11.25" ry="11.2068966"></ellipse>
+                    <g transform="translate(10.125000, 5.603448)">
+                        <line x1="1.6875" y1="0" x2="1.6875" y2="8.40517241" id="Path" stroke="#37474F" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <ellipse id="Oval" fill="#37474F" fill-rule="nonzero" cx="1.6875" cy="11.5431034" rx="1" ry="1"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

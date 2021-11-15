@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="21" viewBox="0 0 54 21">
+    <g fill="none" fill-rule="evenodd" font-family="SFProText-Semibold, SF Pro Text" font-size="14" font-weight="500" letter-spacing="-.28">
+        <g fill="#000">
+            <g>
+                <text transform="translate(-21 -13) translate(21 13)">
+                    <tspan x="12.302" y="15.5">9:4</tspan> <tspan x="34.752" y="15.5">1</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/close@3x</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.088427 0 0 0 0 0.098916 0 0 0 0 0.113361 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <polygon id="path-2" points="19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12"></polygon>
+    </defs>
+    <g id="7.0-Action-Sheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7.4-Action-Sheet-With-Form" transform="translate(-338.000000, -348.000000)">
+            <g id="PopUp" transform="translate(0.000000, 321.000000)">
+                <g id="ic/close" transform="translate(333.000000, 22.000000)" filter="url(#filter-1)">
+                    <g>
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="Path" fill-rule="nonzero"></g>
+                        <g id="Group" mask="url(#mask-3)" fill="#80868B">
+                            <g id="🎨-Color">
+                                <rect id="Shape" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="312px" height="191px" viewBox="0 0 312 191" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2nd visa card@3x</title>
+    <defs>
+        <linearGradient x1="100%" y1="68.7058158%" x2="0.25781251%" y2="31.2941842%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="47.5247532%"></stop>
+            <stop stop-color="#B4EC51" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0.0723460026" y="0.51" width="309.490476" height="189.3" rx="8"></rect>
+        <filter x="-9.1%" y="-9.1%" width="118.1%" height="118.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-99.9%" y="-16.4%" width="299.8%" height="132.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="10.0892857" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-28.9%" y="-28.9%" width="157.8%" height="157.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="2.-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.0-Home" transform="translate(-33.000000, -1379.000000)">
+            <g id="MY-CARDS-SECTION" transform="translate(-285.000000, 1353.000000)">
+                <g id="Credit-cards" transform="translate(0.000000, 26.000000)">
+                    <g id="2nd-visa-card" transform="translate(318.509524, 0.000000)">
+                        <g id="Background" transform="translate(0.927654, 0.490000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Background-box" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                            <g id="Shape" mask="url(#mask-3)">
+                                <g transform="translate(-34.000000, -132.000000)">
+                                    <path d="M343.562822,200.658 C381.198096,200.658 411.707514,170.147101 411.707514,132.51 C411.707514,94.8728989 381.198096,64.362 343.562822,64.362 C305.927548,64.362 275.41813,94.8728989 275.41813,132.51 C275.41813,170.147101 305.927548,200.658 343.562822,200.658 Z M343.562822,265.02 C270.383122,265.02 211.059254,205.693252 211.059254,132.51 C211.059254,59.3267478 270.383122,0 343.562822,0 C416.742522,0 476.06639,59.3267478 476.06639,132.51 C476.06639,205.693252 416.742522,265.02 343.562822,265.02 Z" id="Oval" fill="#7ED321" fill-rule="nonzero" opacity="0.600000024" style="mix-blend-mode: overlay;" filter="url(#filter-4)"></path>
+                                    <polygon id="Rectangle" fill="#F8E71C" fill-rule="nonzero" opacity="0.800000012" style="mix-blend-mode: soft-light;" filter="url(#filter-5)" transform="translate(76.638234, 287.238204) rotate(-45.000000) translate(-76.638234, -287.238204) " points="61.4968465 194.747199 91.7841114 194.746464 91.7796217 379.72921 61.4923568 379.729945"></polygon>
+                                    <path d="M82.3690377,141.881174 L101.176763,141.881174 L101.176763,123.072536 L82.3690377,123.072536 L82.3690377,141.881174 Z M71.0115891,111.714536 L112.534212,111.714536 L112.534212,153.239174 L71.0115891,153.239174 L71.0115891,111.714536 Z" id="Rectangle" fill="#F8E71C" fill-rule="evenodd" opacity="0.4" style="mix-blend-mode: overlay;" filter="url(#filter-6)" transform="translate(91.772900, 132.476855) rotate(-330.000000) translate(-91.772900, -132.476855) "></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="cvv" transform="translate(166.575914, 125.925701)" fill="#FFFFFF">
+                            <text id="031" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" line-spacing="24" letter-spacing="2">
+                                <tspan x="0.9145624" y="35.0742995">03</tspan>
+                                <tspan x="24.0644647" y="35.0742995">1</tspan>
+                            </text>
+                            <text id="CVV" opacity="0.300000012" font-family="Roboto-Medium, Roboto" font-size="11" font-weight="400" line-spacing="20" letter-spacing="1">
+                                <tspan x="0.9145624" y="12.0742995">CVV</tspan>
+                            </text>
+                        </g>
+                        <g id="Expire-date" transform="translate(31.286530, 125.925701)" fill="#FFFFFF">
+                            <text id="08/20" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" line-spacing="24" letter-spacing="2">
+                                <tspan x="0.20394641" y="35.0742995">08/2</tspan>
+                                <tspan x="43.9803136" y="35.0742995">0</tspan>
+                            </text>
+                            <text id="EXPIRE-DATE" opacity="0.300000012" font-family="Roboto-Medium, Roboto" font-size="11" font-weight="400" line-spacing="20" letter-spacing="1">
+                                <tspan x="0.20394641" y="12.0742995">EXPIRE DATE</tspan>
+                            </text>
+                        </g>
+                        <g id="Card-number" transform="translate(31.286530, 68.135701)" fill="#FFFFFF">
+                            <text id="8156-9624-0018-1735" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" line-spacing="24" letter-spacing="2">
+                                <tspan x="0.20394641" y="36.8642995">8156  9624  0018  1735</tspan>
+                            </text>
+                            <text id="CARD-NUMBER" opacity="0.300000012" font-family="Roboto-Medium, Roboto" font-size="11" font-weight="400" line-spacing="20" letter-spacing="1">
+                                <tspan x="0.20394641" y="12.8642995">CARD NUMBER</tspan>
+                            </text>
+                        </g>
+                        <g id="Logo-visa" transform="translate(31.286530, 23.716000)">
+                            <path d="M70.6664237,0.558107751 L75.5966782,24.0545439 L69.9417114,24.0545439 L69.2200147,20.5651225 L61.3899061,20.5651225 L60.1063311,24.0545439 L53.6874514,24.0545439 L62.8714953,2.3083097 L62.8714953,2.3083097 L62.8798393,2.28448473 C62.956664,2.07522692 63.5870572,0.558107751 65.7160662,0.558107751 L65.7160662,0.558107751 L70.6664237,0.558107751 Z M66.4005725,6.94889079 L63.1649987,15.7438303 L68.221902,15.7438303 L66.4005725,6.94889079 Z" id="a" fill="#FFFFFF"></path>
+                            <path d="M54.1679125,6.20807513 L55.0474176,1.16214208 C55.0474176,1.16214208 52.3345212,0.137779731 49.508043,0.137779731 C46.4513857,0.137779731 39.1932067,1.46465845 39.1932067,7.91634411 C39.1932067,13.9876379 47.7128473,14.0635166 47.7128473,17.2494233 C47.7128473,20.4373268 40.0717067,19.8682366 37.5487834,17.8574512 L36.6340981,23.1320188 C36.6340981,23.1320188 39.3831798,24.4598959 43.5867118,24.4598959 C47.7882335,24.4598959 54.130722,22.2973531 54.130722,16.4157561 C54.130722,10.3065229 45.5346901,9.73643433 45.5346901,7.08068009 C45.5346901,4.42392745 51.5334177,4.76538157 54.1679125,6.20807513" id="s" fill="#FFFFFF"></path>
+                            <polyline id="i" fill="#FFFFFF" points="32.8386565 24.0545439 26.6801102 24.0545439 30.5288247 0.558107751 36.6893813 0.558107751 32.8386565 24.0545439"></polyline>
+                            <path d="M28.1275244,0.558107751 L18.3283295,24.0545439 L11.91146,24.0545439 L6.56205845,3.64117884 C4.09017635,2.16672343 1.8746582,1.43093675 0.801304413,1.12903194 C2.2606679,1.53860413 5.81680238,2.74540621 9.25987764,5.51318605 C13.4532174,8.88487572 14.8750521,13.0687258 14.9302482,13.2347311 L14.9319319,13.238835 L15.6274948,16.7192708 L21.4985685,0.558107751 L28.1275244,0.558107751 Z" id="v" fill="#FFFFFF"></path>
+                            <path d="M14.9319319,13.2398334 L12.8593152,2.67372551 C12.8593152,2.67372551 12.6100383,0.558107751 9.93835303,0.558107751 L0.231631769,0.558107751 L0.118049963,0.955472483 C0.119055111,0.955472483 4.7849555,1.91593699 9.25987764,5.51318605 C13.5387958,8.95368571 14.9319319,13.2398334 14.9319319,13.2398334" id="shape" fill="#F9A533"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
