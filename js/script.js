@@ -256,6 +256,27 @@ if ($("#savingsChart").length) {
 
 
 $(document).ready(function() {
+    $('#accordionFlush1').on('shown.bs.collapse', function(){
+        var header = $(this).find('.accordion-content.show').prev('.accordion-header');
+        let chosenColorClassName=$(header).data('color-class-name');
+        $(header).addClass(chosenColorClassName);
+    })
+    $('#accordionFlush1').on('hide.bs.collapse', function(e){
+        var header = $(this).find('.show').prev('.accordion-header');
+        let chosenColorClassName=$(header).data('color-class-name');
+        $(this).find('.colored-accordion .accordion-header').removeClass(chosenColorClassName);
+    })
+    $('#accordionFlush2').on('shown.bs.collapse', function(){
+        var header = $(this).find('.accordion-content.show').prev('.accordion-header');
+        let chosenColorClassName=$(header).data('color-class-name');
+        $(header).addClass(chosenColorClassName);
+    })
+    $('#accordionFlush2').on('hide.bs.collapse', function(e){
+        var header = $(this).find('.show').prev('.accordion-header');
+        let chosenColorClassName=$(header).data('color-class-name');
+        $(this).find('.colored-accordion .accordion-header').removeClass(chosenColorClassName);
+    })
+
     $('#accordionFlushExample4').on('shown.bs.collapse', function(){
         var header = $(this).find('.accordion-content.show').prev('.accordion-header');
         let chosenColorClassName=$(header).data('color-class-name');

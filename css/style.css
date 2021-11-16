@@ -426,6 +426,8 @@ input.apple-switch {
   border-radius: 50px;
   transition-duration: 500ms;
   box-shadow: inset -20px 0 0 0 #fff; }
+  input.apple-switch:disabled {
+    opacity: 0.5; }
 
 input.apple-switch:after {
   content: "";
@@ -445,6 +447,56 @@ input.apple-switch:checked {
 input.apple-switch:checked:after {
   left: 25px;
   box-shadow: -2px 4px 3px rgba(0, 0, 0, 0.05); }
+
+input.radio-button {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #b9b9b9;
+  border-radius: 50%;
+  outline: none; }
+  input.radio-button:disabled {
+    opacity: 0.5; }
+  input.radio-button:checked {
+    box-shadow: 10px 10px 10px 10px #40c4ff inset !important; }
+    input.radio-button:checked:before {
+      background: white; }
+  input.radio-button:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%; }
+
+input.checkbox {
+  width: 22px;
+  height: 24px; }
+  input.checkbox:disabled {
+    opacity: 0.5 !important; }
+  input.checkbox:after {
+    content: "";
+    background-color: white;
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #767676;
+    border-radius: 3px; }
+  input.checkbox:checked:after {
+    content: "\2713";
+    color: black;
+    padding: 0 5px;
+    font-size: 15px; }
+  input.checkbox.checkbox-colored:after {
+    content: "";
+    background-color: #40c4ff;
+    display: inline-block;
+    visibility: visible; }
+  input.checkbox.checkbox-colored:checked:after {
+    content: "\2713";
+    color: white;
+    padding: 0 5px;
+    font-size: 16px;
+    border: 0; }
 
 /*-------------------------- General Tag Definitions End ---------------------*/
 /**-------------------------- Sign In Page Start--------------------------*/
