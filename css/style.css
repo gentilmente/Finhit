@@ -1247,6 +1247,15 @@ input.apple-switch:checked:after {
     border-top: solid 0.5px rgba(0, 0, 0, 0.06); }
   .pages-list_title .item-page.active, .pages-list_title .item-page:hover, .pages-list_title .item-page:active, .pages-list_title .item-page:focus, .pages-list_title .item-component.active, .pages-list_title .item-component:hover, .pages-list_title .item-component:active, .pages-list_title .item-component:focus, .reusable-components-list .item-page.active, .reusable-components-list .item-page:hover, .reusable-components-list .item-page:active, .reusable-components-list .item-page:focus, .reusable-components-list .item-component.active, .reusable-components-list .item-component:hover, .reusable-components-list .item-component:active, .reusable-components-list .item-component:focus {
     border-left-color: #40c4ff; }
+.pages-list_title .item-page.colored-accordion, .reusable-components-list .item-page.colored-accordion {
+  padding: 0px !important; }
+  .pages-list_title .item-page.colored-accordion .accordion-header, .reusable-components-list .item-page.colored-accordion .accordion-header {
+    padding: 13px 21px 13px 17px; }
+  .pages-list_title .item-page.colored-accordion .accordion-content, .reusable-components-list .item-page.colored-accordion .accordion-content {
+    padding: 0px 21px 16px 17px; }
+  .pages-list_title .item-page.colored-accordion .chosen-color-blue, .reusable-components-list .item-page.colored-accordion .chosen-color-blue {
+    background-color: #00a0e8;
+    transition: background-color 0.5s ease; }
 
 /**-------------------------- Page All Pages End ------------------------*/
 /**-------------------------- Blog Pages Start ------------------------*/
@@ -1662,7 +1671,7 @@ input.apple-switch:checked:after {
         .main-content .main-message-footer .send-row .input-group .form-control {
           border-radius: 50px;
           font-family: "Roboto Condensed", sans-serif;
-          padding: 0 40px 2px 20px;
+          padding: 0 5px 2px 20px;
           font-weight: 100; }
 
 .content-padding {

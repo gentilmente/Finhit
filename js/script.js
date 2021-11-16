@@ -1,5 +1,5 @@
 document.onreadystatechange = function () {
-    var state = document.readyState;    
+    var state = document.readyState;
     if (state == 'complete') {
         document.getElementById('interactive');
         $('#load').addClass('hidden');
@@ -153,7 +153,7 @@ if ($("#incomeChart").length) {
         data: [22, 37, 24, 2, 33],
         fill: false,
         borderColor: '#40c4ff'
-    };    
+    };
 
     var incomeCharts = {
         labels: ["Jan", "Feb", "Mar", "Apr", "May"],
@@ -180,7 +180,7 @@ if ($("#expenseChart").length) {
         data: [8, 61, 87, 57, 70],
         fill: false,
         borderColor: '#ff5252'
-    };    
+    };
 
     var expenseCharts = {
         labels: ["Jan", "Feb", "Mar", "Apr", "May"],
@@ -207,7 +207,7 @@ if ($("#billsChart").length) {
         data: [90, 80, 42, 44, 19],
         fill: false,
         borderColor: '#4db6ac'
-    };   
+    };
 
     var billsCharts = {
         labels: ["Jan", "Feb", "Mar", "Apr", "May"],
@@ -234,7 +234,7 @@ if ($("#savingsChart").length) {
         data: [22, 68, 61, 79, 79],
         fill: false,
         borderColor: '#002e45'
-    };   
+    };
 
     var savingsCharts = {
         labels: ["Jan", "Feb", "Mar", "Apr", "May"],
@@ -256,6 +256,27 @@ if ($("#savingsChart").length) {
 
 
 $(document).ready(function() {
+    $('#accordionFlushExample4').on('shown.bs.collapse', function(){
+        var header = $(this).find('.accordion-content.show').prev('.accordion-header');
+        let chosenColorClassName=$(header).data('color-class-name');
+        $(header).addClass(chosenColorClassName);
+    })
+    $('#accordionFlushExample4').on('hide.bs.collapse', function(e){
+        var header = $(this).find('.show').prev('.accordion-header');
+        let chosenColorClassName=$(header).data('color-class-name');
+        $(this).find('.colored-accordion .accordion-header').removeClass(chosenColorClassName);
+    })
+
+    $('#accordionFlushExample5').on('shown.bs.collapse', function(){
+        var header = $(this).find('.accordion-content.show').prev('.accordion-header');
+        let chosenColorClassName=$(header).data('color-class-name');
+        $(header).addClass(chosenColorClassName);
+    })
+    $('#accordionFlushExample5').on('hide.bs.collapse', function(e){
+        var header = $(this).find('.show').prev('.accordion-header');
+        let chosenColorClassName=$(header).data('color-class-name');
+        $(this).find('.colored-accordion .accordion-header').removeClass(chosenColorClassName);
+    })
     $('#closeButton').on('click', function(e) {
         $('#previewBox').remove();
     });

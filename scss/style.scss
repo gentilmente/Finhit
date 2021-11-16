@@ -291,6 +291,40 @@ input:focus{
   outline:none;
   box-shadow:none!important;
 }
+input.apple-switch {
+  position: relative;
+  -webkit-appearance: none;
+  outline: none;
+  width: 52px;
+  height: 28px;
+  background-color: #fff;
+  border: 1px solid #D9DADC;
+  border-radius: 50px;
+  transition-duration: 500ms;
+  box-shadow: inset -20px 0 0 0 #fff;
+}
+
+input.apple-switch:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background: transparent;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  box-shadow: 2px 3px 4px rgba(0,0,0,0.2);
+}
+
+input.apple-switch:checked {
+  box-shadow: inset 25px 0 0 0 #40c4ff!important;
+  border-color: #40c4ff;
+}
+
+input.apple-switch:checked:after {
+  left: 25px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+}
 /*-------------------------- General Tag Definitions End ---------------------*/
 /**-------------------------- Sign In Page Start--------------------------*/
 .slogan {
@@ -352,7 +386,7 @@ input:focus{
     .money-balance {
       font-size: 30px;
       font-weight: 700;
-      font-family: $second_font;    
+      font-family: $second_font;
     }
   }
   .add-money-block {
@@ -442,7 +476,7 @@ input:focus{
         background-repeat: no-repeat;
         width: 50%;
         border: 0.5px solid transparent;
-        position: relative;        
+        position: relative;
         .block-link {
           position: absolute;
           top: 0;
@@ -476,7 +510,7 @@ input:focus{
           color: $almostBlack;
           font-family: $second_font;
           margin-bottom: 11px;
-        }        
+        }
         &.income-information {
           background-image: url(../img/money-click.svg);
           .progress-bar {
@@ -487,7 +521,7 @@ input:focus{
           }
         }
         &.expense-information {
-          background-image: url(../img/expenses-icon.svg);          
+          background-image: url(../img/expenses-icon.svg);
           .progress-bar {
             background-color: $danger;
           }
@@ -499,9 +533,9 @@ input:focus{
               background-color: #f42850;
             }
           }
-        }        
+        }
         &.bills-information {
-          background-image: url(../img/balances.svg);          
+          background-image: url(../img/balances.svg);
           .progress-bar {
             background-color: $success;
           }
@@ -515,7 +549,7 @@ input:focus{
           }
         }
         &.saving-information {
-          background-image: url(../img/saving.svg);          
+          background-image: url(../img/saving.svg);
           .progress-bar {
             background-color: #ffd740;
           }
@@ -529,7 +563,7 @@ input:focus{
           }
         }
       }
-    }    
+    }
   }
   &.transactions-block {
 
@@ -739,7 +773,7 @@ input:focus{
         width: 48px;
         height: 48px;
         object-fit: cover;
-        object-position: center;        
+        object-position: center;
       }
     }
     .user-name {
@@ -805,7 +839,7 @@ input:focus{
           content: '';
           display: inline-block;
           margin-right: 4px;
-          border: 2px solid transparent; 
+          border: 2px solid transparent;
         }
         &.grow {
           color: $success;
@@ -822,7 +856,7 @@ input:focus{
       }
     }
     .owl-stage {
-      display: flex;  
+      display: flex;
       flex-wrap: wrap;
     }
     .owl-item{
@@ -1068,7 +1102,7 @@ input:focus{
     margin-bottom: 8px;
   }
   .br-1 {
-    border: solid 0.5px rgb(0 0 0 / 25%);
+    border: solid 0.5px rgba(0, 0, 0, 0.25);
   }
   .shadow-none {
     box-shadow: none!important;
@@ -1302,6 +1336,21 @@ input:focus{
     }
     &.active, &:hover, &:active, &:focus {
       border-left-color: $info;
+    }
+  }
+  .item-page{
+    &.colored-accordion {
+      padding: 0px!important;
+      .accordion-header{
+        padding: 13px 21px 13px 17px;
+      }
+      .accordion-content{
+        padding: 0px 21px 16px 17px;
+      }
+      .chosen-color-blue{
+        background-color: #00a0e8;
+        transition: background-color 0.5s ease;
+      }
     }
   }
 }
@@ -1833,7 +1882,7 @@ input:focus{
         .form-control {
           border-radius: 50px;
           font-family: $second_font;
-          padding: 0 40px 2px 20px;
+          padding: 0 5px 2px 20px; //Send Button for Notification Details Right Padding
           font-weight: 100;
         }
       }
@@ -2178,8 +2227,8 @@ input:focus{
       height: auto;
       padding: 20px;
       border-radius: 8px;
-      -webkit-box-shadow: 0 8px 23px 0 rgb(0 0 0 / 3%);
-      box-shadow: 0 8px 23px 0 rgb(0 0 0 / 3%);
+      -webkit-box-shadow: 0 8px 23px 0 rgba(0, 0, 0, 0.03);
+      box-shadow: 0 8px 23px 0 rgba(0, 0, 0, 0.03);
       background-color: #fff;
       .item-row {
         display: flex;
@@ -2278,7 +2327,7 @@ input:focus{
     width: 100%;
     border-radius: 100px 100px 0 0;
     border-top: solid 0.1px rgba(0, 0, 0, 0.03);
-    position: relative;   
+    position: relative;
   }
   .menu-icon {
     margin-right: 46px;
@@ -2424,14 +2473,14 @@ input:focus{
     padding: 13px 27px 22px;
     background-color: $white;
     height: 74px;
-    position: relative;    
+    position: relative;
     .footer-menu-item {
       position: relative;
       img {
         margin-bottom: 1px;
         &.active {
          display: none;
-        }        
+        }
       }
       .menu-title {
         font-size: 9px;
@@ -2849,7 +2898,7 @@ input:focus{
     .news-wrapper {
       width: 33.33333%;
     }
-  }    
+  }
 }
 @media screen and (max-width: 365px){
   .btn-follow {
@@ -2968,10 +3017,10 @@ input:focus{
   height: 14px;
 }
 #navigation.navigation .navigation-button-toggler .mobile-menu-button {
-  border: none;	
+  border: none;
   padding: 0;
   width: 18px;
-  height: 14px;	
+  height: 14px;
   transform: rotate(0deg);
   transition: .5s ease-in-out;
   cursor: pointer;
@@ -2989,7 +3038,7 @@ input:focus{
   left: 0;
   transform: rotate(0deg);
   transition: .25s ease-in-out;
-      
+
 }
 #navigation.navigation .navigation-button-toggler .mobile-menu-button span:nth-child(1) {
   top: 0px;
@@ -3029,7 +3078,7 @@ input:focus{
   top: 10px;
   width: 0%;
   left: 50%;
-}	
+}
 #navigation.navigation .navigation-button-toggler .mobile-menu-button:focus {
   outline: none;
 }
