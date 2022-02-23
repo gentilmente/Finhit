@@ -117,7 +117,7 @@
                             </g>
                         </g>
                     </g>
-                    <text id="FinHit" stroke="#000000" stroke-width="0.8" font-family="Swiss721BT-BlackCondensedItalic, Swis721 BlkCn BT" font-size="13" font-style="italic" font-weight="normal" line-spacing="20">
+                    <text id=" IT.BAnk" stroke="#000000" stroke-width="0.8" font-family="Swiss721BT-BlackCondensedItalic, Swis721 BlkCn BT" font-size="13" font-style="italic" font-weight="normal" line-spacing="20">
                         <tspan x="12" y="16.9999551" fill="#FFFFFF">Fin</tspan>
                         <tspan x="28.8720703" y="16.9999551" fill="#40C4FF">Hit</tspan>
                     </text>

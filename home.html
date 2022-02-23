@@ -1,506 +1,707 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#ffffff">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- FontAwesome -->
-  <link rel="stylesheet" href="css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">  
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-  <link rel="shortcut icon" href="#">
-  <link rel="manifest" href="manifest.json">
-  <title>FinHit - PWA HTML Mobile Application</title>
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/fontawesome.all.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      type="text/css"
+      media="screen"
+    />
+    <link rel="shortcut icon" href="#" />
+    <link rel="manifest" href="manifest.json" />
+    <title>IT.BAnk</title>
+  </head>
 
-<body class="light-grey overview-page">
-
+  <body class="light-grey overview-page">
     <!-- Loading Container Start -->
-    <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100" id="load">
-        <div class="preload-image mb-4">
-            <img src="img/icons/worldwide-coverage.svg" class="rot" alt="World Icon">
-        </div>
-        <div class="please-wait-text">
-            <div class="primary-text">
-                Please Wait
-            </div>
-            <div class="secondary-text">
-                We are working on your task
-            </div>
-        </div>
+    <div
+      class="d-flex flex-column justify-content-center align-items-center w-100 h-100"
+      id="load"
+    >
+      <div class="preload-image mb-4">
+        <img
+          src="img/icons/worldwide-coverage.svg"
+          class="rot"
+          alt="World Icon"
+        />
+      </div>
+      <div class="please-wait-text">
+        <div class="primary-text">Please Wait</div>
+        <div class="secondary-text">We are working on your task</div>
+      </div>
     </div>
     <!-- Loading Container End -->
 
     <!-- Modals Start -->
-<!-- Modal Add Money Start-->
-<div class="modal fade" id="balanceModal" tabindex="-1" role="dialog" aria-labelledby="balanceModalTitle" aria-hidden="true">
-    <div class="modal-dialog mx-auto my-0 d-flex h-100 pt-5" role="document">
+    <!-- Modal Add Money Start-->
+    <div
+      class="modal fade"
+      id="balanceModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="balanceModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog mx-auto my-0 d-flex h-100 pt-5" role="document">
         <div class="modal-content mt-auto">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true"><img src="img/icons/ic-close.svg" alt="Icon Close"></span>
-            </button>
-            <div class="modal-middle">
-                <div class="text-center">
-                    <img src="img/icons/add-money-icon.svg" class="modal-icon" alt="Add Money Icon">
-                    <div class="modal-title">
-                        Add Balance
-                    </div>
-                </div>
-                <div class="modal-text">
-                    Certe, inquam, pertinax non intellegamus, tu paulo ante cum memoriter, tum etiam erga nos causae confidere, sed quia non numquam eius, quid.
-                </div>
-
-                <div class="devider-without-line"></div>
-
-                <!-- Add Balance Form Start -->
-                <form class="add-balance-form">
-                    <!-- Form Field Start -->
-                    <div class="d-flex align-items-center">
-                        <label for="balance-from">From</label>
-                        <input class="form-control" type="text" autocomplete="off" name="balance-from" id="balance-from" placeholder="PayPal Account">
-                    </div>
-                    <!-- Form Field End -->
-
-                    <!-- Form Field Start -->
-                    <div class="d-flex align-items-center">
-                        <label for="balance-amount">Enter Amount</label>
-                        <input class="form-control" type="text" autocomplete="off" name="balance-amount" id="balance-amount" placeholder="$100">
-                    </div>
-                    <!-- Form Field End -->
-                </form>
-                <!-- Add Balance Form End -->
-
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"
+              ><img src="img/icons/ic-close.svg" alt="Icon Close"
+            /></span>
+          </button>
+          <div class="modal-middle">
+            <div class="text-center">
+              <img
+                src="img/icons/add-money-icon.svg"
+                class="modal-icon"
+                alt="Add Money Icon"
+              />
+              <div class="modal-title">Add Balance</div>
             </div>
-            <div class="modal-bottom d-flex mt-4">
-                <a class="btn btn-light w-100" data-dismiss="modal">CANCEL</a>
-                <a class="btn btn-dark w-100 ml-2">DEPOSIT</a>
+            <div class="modal-text">
+              Certe, inquam, pertinax non intellegamus, tu paulo ante cum
+              memoriter, tum etiam erga nos causae confidere, sed quia non
+              numquam eius, quid.
             </div>
+
+            <div class="devider-without-line"></div>
+
+            <!-- Add Balance Form Start -->
+            <form class="add-balance-form">
+              <!-- Form Field Start -->
+              <div class="d-flex align-items-center">
+                <label for="balance-from">From</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  autocomplete="off"
+                  name="balance-from"
+                  id="balance-from"
+                  placeholder="PayPal Account"
+                />
+              </div>
+              <!-- Form Field End -->
+
+              <!-- Form Field Start -->
+              <div class="d-flex align-items-center">
+                <label for="balance-amount">Enter Amount</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  autocomplete="off"
+                  name="balance-amount"
+                  id="balance-amount"
+                  placeholder="$100"
+                />
+              </div>
+              <!-- Form Field End -->
+            </form>
+            <!-- Add Balance Form End -->
+          </div>
+          <div class="modal-bottom d-flex mt-4">
+            <a class="btn btn-light w-100" data-dismiss="modal">CANCEL</a>
+            <a class="btn btn-dark w-100 ml-2">DEPOSIT</a>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- Modal Add Money End-->
+    <!-- Modal Add Money End-->
 
-<!-- Modal Withdraw Start-->
-<div class="modal fade" id="withdrawModal" tabindex="-1" role="dialog" aria-labelledby="withdrawModalTitle" aria-hidden="true">
-    <div class="modal-dialog mx-auto my-0 d-flex h-100 pt-5" role="document">
+    <!-- Modal Withdraw Start-->
+    <div
+      class="modal fade"
+      id="withdrawModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="withdrawModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog mx-auto my-0 d-flex h-100 pt-5" role="document">
         <div class="modal-content mt-auto">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true"><img src="img/icons/ic-close.svg" alt="Icon Close"></span>
-            </button>
-            <div class="modal-middle">
-                <div class="text-center">
-                    <img src="img/icons/assets-protection.svg" class="modal-icon" alt="Withdraw Icon">
-                    <div class="modal-title">
-                        Withdraw
-                    </div>
-                </div>
-                <div class="modal-text">
-                    Certe, inquam, pertinax non intellegamus, tu paulo ante cum memoriter, tum etiam erga nos causae confidere, sed quia non numquam eius modi.
-                </div>
-
-                <div class="devider-without-line"></div>
-
-                <!-- Withdraw Form Start -->
-                <form class="withdraw-form">
-                    <!-- Form Field Start -->
-                    <div class="d-flex align-items-center">
-                        <label for="withdraw-from">From</label>
-                        <select name="withdraw-from" id="withdraw-from">
-                            <option value="Savings (***5411)">Savings (***5411)</option>
-                            <option value="Savings (***2311)">Savings (***2311)</option>
-                            <option value="Savings (***5511)">Savings (***5511)</option>
-                            <option value="Savings (***5561)">Savings (***5561)</option>
-                        </select>
-                    </div>
-                    <!-- Form Field End -->
-
-                    <!-- Form Field Start -->
-                    <div class="d-flex align-items-center">
-                        <label for="withdraw-to">To</label>
-                        <div class="card-image">
-                            <img src="img/icons/mastercard.svg" alt="MasterCard Icon">
-                        </div>
-                        <select name="withdraw-to" id="withdraw-to">
-                            <option value="**** **** **** 5324">
-                                **** **** **** 5324
-                            </option>
-                            <option value="**** **** **** 5351">
-                                **** **** **** 5351
-                            </option>
-                            <option value="**** **** **** 1124">
-                                **** **** **** 1124
-                            </option>
-                        </select>
-                    </div>
-                    <!-- Form Field End -->
-
-                    <!-- Form Field Start -->
-                    <div class="d-flex align-items-center">
-                        <label for="withdraw-amount">Enter Amount</label>
-                        <input class="form-control" type="text" autocomplete="off" name="withdraw-amount" id="withdraw-amount" placeholder="$100">
-                    </div>
-                    <!-- Form Field End -->
-                </form>
-                <!-- Withdraw Form End -->
-
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"
+              ><img src="img/icons/ic-close.svg" alt="Icon Close"
+            /></span>
+          </button>
+          <div class="modal-middle">
+            <div class="text-center">
+              <img
+                src="img/icons/assets-protection.svg"
+                class="modal-icon"
+                alt="Withdraw Icon"
+              />
+              <div class="modal-title">Retiros</div>
             </div>
-            <div class="modal-bottom d-flex mt-4">
-                <a class="btn btn-light w-100" data-dismiss="modal">CANCEL</a>
-                <a class="btn btn-dark w-100 ml-2">WITHDRAW</a>
+            <div class="modal-text">
+              Certe, inquam, pertinax non intellegamus, tu paulo ante cum
+              memoriter, tum etiam erga nos causae confidere, sed quia non
+              numquam eius modi.
             </div>
+
+            <div class="devider-without-line"></div>
+
+            <!-- Withdraw Form Start -->
+            <form class="withdraw-form">
+              <!-- Form Field Start -->
+              <div class="d-flex align-items-center">
+                <label for="withdraw-from">Desde</label>
+                <select name="withdraw-from" id="withdraw-from">
+                  <option value="Savings (***5411)">
+                    Caja Ahorro (***5411)
+                  </option>
+                  <option value="Savings (***2311)">
+                    Caja Ahorro (***2311)
+                  </option>
+                  <option value="Savings (***5511)">
+                    Caja Ahorro (***5511)
+                  </option>
+                  <option value="Savings (***5561)">
+                    Caja Ahorro (***5561)
+                  </option>
+                </select>
+              </div>
+              <!-- Form Field End -->
+
+              <!-- Form Field Start -->
+              <div class="d-flex align-items-center">
+                <label for="withdraw-to">Hacia</label>
+                <div class="card-image">
+                  <img src="img/icons/mastercard.svg" alt="MasterCard Icon" />
+                </div>
+                <select name="withdraw-to" id="withdraw-to">
+                  <option value="**** **** **** 5324">
+                    **** **** **** 5324
+                  </option>
+                  <option value="**** **** **** 5351">
+                    **** **** **** 5351
+                  </option>
+                  <option value="**** **** **** 1124">
+                    **** **** **** 1124
+                  </option>
+                </select>
+              </div>
+              <!-- Form Field End -->
+
+              <!-- Form Field Start -->
+              <div class="d-flex align-items-center">
+                <label for="withdraw-amount">Ingresar monto</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  autocomplete="off"
+                  name="withdraw-amount"
+                  id="withdraw-amount"
+                  placeholder="$100"
+                />
+              </div>
+              <!-- Form Field End -->
+            </form>
+            <!-- Withdraw Form End -->
+          </div>
+          <div class="modal-bottom d-flex mt-4">
+            <a class="btn btn-light w-100" data-dismiss="modal">CANCELAR</a>
+            <a class="btn btn-dark w-100 ml-2">RETIRAR</a>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- Modal Withdraw End-->
+    <!-- Modal Withdraw End-->
 
-<!-- Modal Send Money Start-->
-<div class="modal fade" id="sendMoneyModal" tabindex="-1" role="dialog" aria-labelledby="sendMoneyModalTitle" aria-hidden="true">
-    <div class="modal-dialog mx-auto my-0 d-flex h-100 pt-5" role="document">
+    <!-- Modal Send Money Start-->
+    <div
+      class="modal fade"
+      id="sendMoneyModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="sendMoneyModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog mx-auto my-0 d-flex h-100 pt-5" role="document">
         <div class="modal-content mt-auto">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true"><img src="img/icons/ic-close.svg" alt="Icon Close"></span>
-            </button>
-            <div class="modal-middle">
-                <div class="text-center">
-                    <img src="img/icons/budget-balance.svg" class="modal-icon" alt="Send Money Icon">
-                    <div class="modal-title">
-                        SEND MONEY
-                    </div>
-                </div>
-                <div class="modal-text">
-                    Certe, inquam, pertinax non intellegamus, tu paulo ante cum memoriter, tum etiam erga nos causae confidere, sed quia non numquam eius modi.
-                </div>
-
-                <div class="devider-without-line"></div>
-
-                <!-- Send Money Form Start -->
-                <form class="">
-                    <!-- Form Field Start -->
-                    <div class="d-flex align-items-center">
-                        <label>From</label>
-                        <select name="send-money-from" id="send-money-from">
-                            <option value="Savings (***5411)">Savings (***5411)</option>
-                            <option value="Savings (***2311)">Savings (***2311)</option>
-                            <option value="Savings (***5511)">Savings (***5511)</option>
-                            <option value="Savings (***5561)">Savings (***5561)</option>
-                        </select>
-                    </div>
-                    <!-- Form Field End -->
-
-                    <!-- Form Field Start -->
-                    <div class="d-flex align-items-center select-with-user-image select-with-card-image">
-                        <label for="send-money-to">To</label>
-                        <div class="card-image">
-                            <img src="img/icons/mastercard.svg" alt="MasterCard Icon">
-                        </div>
-                        <select name="send-money-to" id="send-money-to">
-                            <option value="**** **** **** 5324">
-                                **** **** **** 5324
-                            </option>
-                            <option value="**** **** **** 5351">
-                                **** **** **** 5351
-                            </option>
-                            <option value="**** **** **** 1124">
-                                **** **** **** 1124
-                            </option>
-                        </select>
-                        <div class="user-image">
-                            <img src="img/user-3.jpg" alt="">
-                        </div>
-                    </div>
-                    <!-- Form Field End -->
-
-                    <!-- Form Field Start -->
-                    <div class="d-flex align-items-center">
-                        <label for="send-money-amount">Enter Amount</label>
-                        <input class="form-control" type="text" autocomplete="off" name="send-money-amount" id="send-money-amount" placeholder="$100">
-                    </div>
-                    <!-- Form Field End -->
-                </form>
-                <!-- Send Money Form End -->
-
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"
+              ><img src="img/icons/ic-close.svg" alt="Icon Close"
+            /></span>
+          </button>
+          <div class="modal-middle">
+            <div class="text-center">
+              <img
+                src="img/icons/budget-balance.svg"
+                class="modal-icon"
+                alt="Send Money Icon"
+              />
+              <div class="modal-title">SEND MONEY</div>
             </div>
-            <div class="modal-bottom d-flex mt-4">
-                <a class="btn btn-light w-100" data-dismiss="modal">CANCEL</a>
-                <a href="transaction-verification.html" class="btn btn-dark w-100 ml-2">SEND</a>
+            <div class="modal-text">
+              Certe, inquam, pertinax non intellegamus, tu paulo ante cum
+              memoriter, tum etiam erga nos causae confidere, sed quia non
+              numquam eius modi.
             </div>
+
+            <div class="devider-without-line"></div>
+
+            <!-- Send Money Form Start -->
+            <form class="">
+              <!-- Form Field Start -->
+              <div class="d-flex align-items-center">
+                <label>From</label>
+                <select name="send-money-from" id="send-money-from">
+                  <option value="Savings (***5411)">Savings (***5411)</option>
+                  <option value="Savings (***2311)">Savings (***2311)</option>
+                  <option value="Savings (***5511)">Savings (***5511)</option>
+                  <option value="Savings (***5561)">Savings (***5561)</option>
+                </select>
+              </div>
+              <!-- Form Field End -->
+
+              <!-- Form Field Start -->
+              <div
+                class="d-flex align-items-center select-with-user-image select-with-card-image"
+              >
+                <label for="send-money-to">To</label>
+                <div class="card-image">
+                  <img src="img/icons/mastercard.svg" alt="MasterCard Icon" />
+                </div>
+                <select name="send-money-to" id="send-money-to">
+                  <option value="**** **** **** 5324">
+                    **** **** **** 5324
+                  </option>
+                  <option value="**** **** **** 5351">
+                    **** **** **** 5351
+                  </option>
+                  <option value="**** **** **** 1124">
+                    **** **** **** 1124
+                  </option>
+                </select>
+                <div class="user-image">
+                  <img src="img/user-3.jpg" alt="" />
+                </div>
+              </div>
+              <!-- Form Field End -->
+
+              <!-- Form Field Start -->
+              <div class="d-flex align-items-center">
+                <label for="send-money-amount">Enter Amount</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  autocomplete="off"
+                  name="send-money-amount"
+                  id="send-money-amount"
+                  placeholder="$100"
+                />
+              </div>
+              <!-- Form Field End -->
+            </form>
+            <!-- Send Money Form End -->
+          </div>
+          <div class="modal-bottom d-flex mt-4">
+            <a class="btn btn-light w-100" data-dismiss="modal">CANCEL</a>
+            <a
+              href="transaction-verification.html"
+              class="btn btn-dark w-100 ml-2"
+              >SEND</a
+            >
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- Modal Send money End-->
+    <!-- Modal Send money End-->
 
-<!-- Modal Exchange Money Start-->
-<div class="modal fade" id="exchangeModal" tabindex="-1" role="dialog" aria-labelledby="exchangeModalTitle" aria-hidden="true">
-    <div class="modal-dialog mx-auto my-0 d-flex h-100 pt-5" role="document">
+    <!-- Modal Exchange Money Start-->
+    <div
+      class="modal fade"
+      id="exchangeModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exchangeModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog mx-auto my-0 d-flex h-100 pt-5" role="document">
         <div class="modal-content mt-auto">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true"><img src="img/icons/ic-close.svg" alt="Icon Close"></span>
-            </button>
-            <div class="modal-middle">
-                <div class="text-center">
-                    <img src="img/icons/exchange.svg" class="modal-icon" alt="Exchange Money Icon">
-                    <div class="modal-title">
-                        EXCHANGE MONEY
-                    </div>
-                </div>
-                <div class="modal-text">
-                    Certe, inquam, pertinax non intellegamus, tu paulo ante cum memoriter, tum etiam erga nos causae confidere, sed quia non numquam eius modi.
-                </div>
-
-                <div class="devider-without-line"></div>
-
-                <!-- Exchange Money Form Start -->
-                <form class="add-balance-form">
-
-                    <div class="d-flex align-items-center inputs-in-row">
-                        <!-- Form Field Start -->
-                        <div class="d-flex align-items-center w-100">
-                            <label for="exchange-from">From</label>
-                            <input class="form-control" type="text" autocomplete="off" name="exchange-from" id="exchange-from" placeholder="EUR">
-                        </div>
-                        <!-- Form Field End -->
-
-                        <!-- Form Field Start -->
-                        <div class="d-flex align-items-center ml-3 w-100">
-                            <label for="exchange-to">To</label>
-                            <input class="form-control" type="text" autocomplete="off" name="exchange-to" id="exchange-to" placeholder="USD">
-                        </div>
-                        <!-- Form Field End -->
-                    </div>
-
-                    <!-- Form Field Start -->
-                    <div class="d-flex align-items-center">
-                        <label for="exchange-amount">Enter Amount</label>
-                        <input class="form-control" type="text" autocomplete="off" name="exchange-amount" id="exchange-amount" placeholder="$100">
-                    </div>
-                    <!-- Form Field End -->
-
-                </form>
-                <!-- Exchange Money Form End -->
-
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"
+              ><img src="img/icons/ic-close.svg" alt="Icon Close"
+            /></span>
+          </button>
+          <div class="modal-middle">
+            <div class="text-center">
+              <img
+                src="img/icons/exchange.svg"
+                class="modal-icon"
+                alt="Exchange Money Icon"
+              />
+              <div class="modal-title">EXCHANGE MONEY</div>
             </div>
-            <div class="modal-bottom d-flex mt-4">
-                <a class="btn btn-light w-100" data-dismiss="modal">CANCEL</a>
-                <a class="btn btn-dark w-100 ml-2">EXCHANGE</a>
+            <div class="modal-text">
+              Certe, inquam, pertinax non intellegamus, tu paulo ante cum
+              memoriter, tum etiam erga nos causae confidere, sed quia non
+              numquam eius modi.
             </div>
+
+            <div class="devider-without-line"></div>
+
+            <!-- Exchange Money Form Start -->
+            <form class="add-balance-form">
+              <div class="d-flex align-items-center inputs-in-row">
+                <!-- Form Field Start -->
+                <div class="d-flex align-items-center w-100">
+                  <label for="exchange-from">From</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    autocomplete="off"
+                    name="exchange-from"
+                    id="exchange-from"
+                    placeholder="EUR"
+                  />
+                </div>
+                <!-- Form Field End -->
+
+                <!-- Form Field Start -->
+                <div class="d-flex align-items-center ml-3 w-100">
+                  <label for="exchange-to">To</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    autocomplete="off"
+                    name="exchange-to"
+                    id="exchange-to"
+                    placeholder="USD"
+                  />
+                </div>
+                <!-- Form Field End -->
+              </div>
+
+              <!-- Form Field Start -->
+              <div class="d-flex align-items-center">
+                <label for="exchange-amount">Enter Amount</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  autocomplete="off"
+                  name="exchange-amount"
+                  id="exchange-amount"
+                  placeholder="$100"
+                />
+              </div>
+              <!-- Form Field End -->
+            </form>
+            <!-- Exchange Money Form End -->
+          </div>
+          <div class="modal-bottom d-flex mt-4">
+            <a class="btn btn-light w-100" data-dismiss="modal">CANCEL</a>
+            <a class="btn btn-dark w-100 ml-2">EXCHANGE</a>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- Modal Exchange Money End-->
+    <!-- Modal Exchange Money End-->
 
-<!-- Modal Support Start-->
-<div class="modal fade" id="supportModal" tabindex="-1" role="dialog" aria-labelledby="supportModalTitle" aria-hidden="true">
-    <div class="modal-dialog mx-auto my-0 d-flex h-100 pt-5" role="document">
+    <!-- Modal Support Start-->
+    <div
+      class="modal fade"
+      id="supportModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="supportModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog mx-auto my-0 d-flex h-100 pt-5" role="document">
         <div class="modal-content mt-auto">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true"><img src="img/icons/ic-close.svg" alt="Icon Close"></span>
-            </button>
-            <div class="modal-middle">
-                <div class="text-center">
-                    <img src="img/icons/support.svg" class="modal-icon" alt="Support Icon">
-                    <div class="modal-title">
-                        Support 24/7
-                    </div>
-                </div>
-                <div class="modal-text">
-                    Certe, inquam, pertinax non intellegamus, tu paulo ante cum memoriter, tum etiam erga nos causae confidere, sed quia non numquam eius modi.
-                </div>
-
-                <div class="devider-without-line"></div>
-
-                <!-- Support Form Start -->
-                <form class="add-balance-form">
-
-                    <!-- Form Field Start -->
-                    <label for="support-comment">* Comments</label>
-                    <textarea name="support-comment" utocomplete="off" id="support-comment"></textarea>
-                    <!-- Form Field End -->
-
-                </form>
-                <!-- Support Form End -->
-
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"
+              ><img src="img/icons/ic-close.svg" alt="Icon Close"
+            /></span>
+          </button>
+          <div class="modal-middle">
+            <div class="text-center">
+              <img
+                src="img/icons/support.svg"
+                class="modal-icon"
+                alt="Support Icon"
+              />
+              <div class="modal-title">Support 24/7</div>
             </div>
-            <div class="modal-bottom d-flex mt-4">
-                <a class="btn btn-light w-100" data-dismiss="modal">CANCEL</a>
-                <a class="btn btn-dark w-100 ml-2">SEND</a>
+            <div class="modal-text">
+              Certe, inquam, pertinax non intellegamus, tu paulo ante cum
+              memoriter, tum etiam erga nos causae confidere, sed quia non
+              numquam eius modi.
             </div>
+
+            <div class="devider-without-line"></div>
+
+            <!-- Support Form Start -->
+            <form class="add-balance-form">
+              <!-- Form Field Start -->
+              <label for="support-comment">* Comments</label>
+              <textarea
+                name="support-comment"
+                utocomplete="off"
+                id="support-comment"
+              ></textarea>
+              <!-- Form Field End -->
+            </form>
+            <!-- Support Form End -->
+          </div>
+          <div class="modal-bottom d-flex mt-4">
+            <a class="btn btn-light w-100" data-dismiss="modal">CANCEL</a>
+            <a class="btn btn-dark w-100 ml-2">SEND</a>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- Modal Support End-->
-<!-- Modals End -->
-
+    <!-- Modal Support End-->
+    <!-- Modals End -->
 
     <!-- Header Start -->
     <div class="main-header w-100">
-
-        <div class="middle-row d-flex justify-content-between w-100 with-back-btn">
-            <div class="d-flex align-items-center">
-                <!-- Icon Back Start -->
-                <div class="icon-back">
-                    <!--  <a href="home.html">
+      <div
+        class="middle-row d-flex justify-content-between w-100 with-back-btn"
+      >
+        <div class="d-flex align-items-center">
+          <!-- Icon Back Start -->
+          <div class="icon-back">
+            <!--  <a href="home.html">
                          <span></span>
                      </a>-->
-                 </div>
-                 <!-- Icon Back End -->
+          </div>
+          <!-- Icon Back End -->
 
-                <!-- Menu Icon Start -->
-                <div class="menu-icon icon-open">
-
-                </div>
-                <!-- Menu Icon End -->
-            </div>
-
-            <!-- FinHit Logo Start -->
-            <div class="finhit-logo">
-                <img class="img-responsive" src="img/Logo.png" alt="FinHit Logo">
-            </div>
-            <!-- FinHit Logo End -->
-
-
-            <!-- Notification and User Block Start -->
-            <div class="main-header_notification-user-block d-flex align-items-center">
-                <a href="notifications.html">
-                    <div class="notification-block">
-                        <img src="img/icons/notification.svg" alt="Notification Image">
-                        <div class="notification-number">2</div>
-                    </div>
-                </a>
-                <a href="menu.html">
-                    <img src="img/icons/menu-icon.svg" alt="Menu Icon">
-                </a>
-            </div>
-            <!-- Notification and User Block End -->
+          <!-- Menu Icon Start -->
+          <div class="menu-icon icon-open"></div>
+          <!-- Menu Icon End -->
         </div>
-        <div class="bottom-row">
 
+        <!--  IT.BAnk Logo Start -->
+        <div class="finhit-logo">
+          <img class="img-responsive" src="img/Logo.png" alt=" IT.BAnk Logo" />
         </div>
+        <!--  IT.BAnk Logo End -->
+
+        <!-- Notification and User Block Start -->
+        <div
+          class="main-header_notification-user-block d-flex align-items-center"
+        >
+          <a href="notifications.html">
+            <div class="notification-block">
+              <img src="img/icons/notification.svg" alt="Notification Image" />
+              <div class="notification-number">2</div>
+            </div>
+          </a>
+          <a href="menu.html">
+            <img src="img/icons/menu-icon.svg" alt="Menu Icon" />
+          </a>
+        </div>
+        <!-- Notification and User Block End -->
+      </div>
+      <div class="bottom-row"></div>
     </div>
     <!-- Header End -->
 
     <div class="main-content m-60">
       <!-- All Content Start -->
       <div class="content-padding">
-
         <!-- Total Balance Add Money Start -->
-        <div class="d-flex justify-content-between align-items-end total-balance-add-money-block">
-            <div class="total-balance-block">
-                TOTAL BALANCE
-                <div class="money-balance">
-                    $ 5,354.30
-                </div>
-            </div>
-            <div class="add-money-block text-center" data-toggle="modal" data-target="#balanceModal">
-                <img src="img/icons/add-money-icon.svg" alt="Add Money Icon">
-                Add Money
-            </div>
+        <div
+          class="d-flex justify-content-between align-items-end total-balance-add-money-block"
+        >
+          <div class="total-balance-block">
+            TOTAL
+            <div class="money-balance">$ 5,354.30</div>
+          </div>
+          <div
+            class="add-money-block text-center"
+            data-toggle="modal"
+            data-target="#balanceModal"
+          >
+            <img src="img/icons/add-money-icon.svg" alt="Add Money Icon" />
+            Depositar
+          </div>
         </div>
         <!-- Total Balance Add Money End -->
 
         <!-- Popups Menu Block Start -->
-        <div class="popups-menu-block d-flex justify-content-between align-items-center">
-            <div class="popup-menu-item text-center" data-toggle="modal" data-target="#withdrawModal">
-                <div class="image-wrapper d-flex justify-content-center align-items-center">
-                    <img src="img/icons/assets-protection.svg" alt="Withdraw Image">
-                </div>
-                Withdraw
+        <div
+          class="popups-menu-block d-flex justify-content-between align-items-center"
+        >
+          <div
+            class="popup-menu-item text-center"
+            data-toggle="modal"
+            data-target="#withdrawModal"
+          >
+            <div
+              class="image-wrapper d-flex justify-content-center align-items-center"
+            >
+              <img src="img/icons/assets-protection.svg" alt="Withdraw Image" />
             </div>
-            <div class="popup-menu-item text-center" data-toggle="modal" data-target="#sendMoneyModal">
-                <div class="image-wrapper d-flex justify-content-center align-items-center">
-                    <img src="img/icons/budget-balance.svg" alt="Send Image">
-                </div>
-                Send
+            Retiros
+          </div>
+          <div
+            class="popup-menu-item text-center"
+            data-toggle="modal"
+            data-target="#sendMoneyModal"
+          >
+            <div
+              class="image-wrapper d-flex justify-content-center align-items-center"
+            >
+              <img src="img/icons/budget-balance.svg" alt="Send Image" />
             </div>
-            <div class="popup-menu-item text-center" data-toggle="modal" data-target="#exchangeModal">
-                <div class="image-wrapper d-flex justify-content-center align-items-center">
-                    <img src="img/icons/exchange.svg" alt="Exchange Image">
-                </div>
-                Exchange
+            Envíos
+          </div>
+          <div
+            class="popup-menu-item text-center"
+            data-toggle="modal"
+            data-target="#exchangeModal"
+          >
+            <div
+              class="image-wrapper d-flex justify-content-center align-items-center"
+            >
+              <img src="img/icons/exchange.svg" alt="Exchange Image" />
             </div>
-            <div class="popup-menu-item text-center" data-toggle="modal" data-target="#supportModal">
-                <div class="image-wrapper d-flex justify-content-center align-items-center">
-                    <img src="img/icons/support.svg" alt="Support Image">
-                </div>
-                Support
+            Transferencias
+          </div>
+          <div
+            class="popup-menu-item text-center"
+            data-toggle="modal"
+            data-target="#supportModal"
+          >
+            <div
+              class="image-wrapper d-flex justify-content-center align-items-center"
+            >
+              <img src="img/icons/support.svg" alt="Support Image" />
             </div>
+            Ayuda
+          </div>
         </div>
         <!-- Popups Menu Block End -->
-        
+
         <!-- Devide Start -->
         <div class="devider right"></div>
         <!-- Devide End -->
-        
+
         <!-- Charts Block Start -->
         <div class="charts-block information-block mt-3">
-            <div class="information-block_title d-flex justify-content-between align-items-center">
-                <div>
-                    CHARTS
-                </div>
-                <a href="charts.html" class="text-underline">View All</a>
+          <div
+            class="information-block_title d-flex justify-content-between align-items-center"
+          >
+            <div>CHARTS</div>
+            <a href="charts.html" class="text-underline">Ver Todo</a>
+          </div>
+          <div class="charts-wrapper">
+            <!-- Chart Start-->
+            <canvas id="popChart" width="600" height="400"></canvas>
+            <!-- Chart End-->
+          </div>
+          <div class="charts-information d-flex">
+            <div class="item-information income-information">
+              <div class="information-title d-flex align-items-center">
+                INGRESOS
+              </div>
+              <div class="information-money">$785.50</div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 38%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <a href="income-chart.html" class="block-link"></a>
             </div>
-            <div class="charts-wrapper">
-
-                <!-- Chart Start-->
-                <canvas id="popChart" width="600" height="400"></canvas>
-                <!-- Chart End-->
-
+            <div class="item-information expense-information">
+              <div class="information-title d-flex align-items-center">
+                GASTOS
+              </div>
+              <div class="information-money">$57.45</div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 19%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <a href="expense-chart.html" class="block-link"></a>
             </div>
-            <div class="charts-information d-flex">
-                <div class="item-information income-information">
-                    <div class="information-title d-flex align-items-center">
-                        INCOME
-                    </div>
-                    <div class="information-money">
-                        $785.50
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 38%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <a href="income-chart.html" class="block-link"></a>
-                </div>
-                <div class="item-information expense-information">
-                    <div class="information-title d-flex align-items-center">
-                        EXPENSE
-                    </div>
-                    <div class="information-money">
-                        $57.45
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 19%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <a href="expense-chart.html" class="block-link"></a>
-                </div>                
+          </div>
+          <div class="charts-information d-flex">
+            <div class="item-information bills-information">
+              <div class="information-title d-flex align-items-center">
+                FACTURAS
+              </div>
+              <div class="information-money">$841.95</div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 62%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <a href="bills-chart.html" class="block-link"></a>
             </div>
-            <div class="charts-information d-flex">
-                <div class="item-information bills-information">
-                    <div class="information-title d-flex align-items-center">
-                        BILLS
-                    </div>
-                    <div class="information-money">
-                        $841.95
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 62%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <a href="bills-chart.html" class="block-link"></a>
-                </div>
-                <div class="item-information saving-information">
-                    <div class="information-title d-flex align-items-center">
-                        SAVINGS
-                    </div>
-                    <div class="information-money">
-                        $3,545.57
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 83%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <a href="savings-chart.html" class="block-link"></a>
-                </div>
+            <div class="item-information saving-information">
+              <div class="information-title d-flex align-items-center">
+                AHORROS
+              </div>
+              <div class="information-money">$3,545.57</div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 83%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <a href="savings-chart.html" class="block-link"></a>
             </div>
-
+          </div>
         </div>
         <!-- Charts Block End -->
 
@@ -510,68 +711,88 @@
 
         <!-- Transactions Block Start -->
         <div class="transactions-block information-block mt-3">
-            <div class="information-block_title d-flex justify-content-between align-items-center">
-                <div>
-                    TRANSACTIONS
-                </div>
-                <a href="all-transactions.html" class="text-underline">View All</a>
+          <div
+            class="information-block_title d-flex justify-content-between align-items-center"
+          >
+            <div>TRANSACTIONS</div>
+            <a href="all-transactions.html" class="text-underline">Ver Todo</a>
+          </div>
+          <a
+            href="transaction-sent.html"
+            class="item-transaction d-flex align-items-center"
+          >
+            <div
+              class="item-transaction_transaction-image d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="img/transaction-img-1.jpg"
+                class="border-50"
+                alt="Transaction Image"
+              />
             </div>
-            <a href="transaction-sent.html" class="item-transaction d-flex align-items-center">
-                <div class="item-transaction_transaction-image d-flex justify-content-center align-items-center">
-                    <img src="img/transaction-img-1.jpg" class="border-50" alt="Transaction Image">
-                </div>
-                <div class="item-transaction_transaction-title">
-                    George Amashukeli
-                    <div class="transaction-type">
-                        Transfer
-                    </div>
-                </div>
-                <div class="item-transaction_transaction-amount ml-auto negative">
-                    -$189.99
-                </div>
-            </a>
-            <a href="transaction-received.html" class="item-transaction d-flex align-items-center">
-                <div class="item-transaction_transaction-image d-flex justify-content-center align-items-center">
-                    <img src="img/icons/pay-pal-icon.svg" alt="PalPal Icon">
-                </div>
-                <div class="item-transaction_transaction-title">
-                    Digital Product
-                    <div class="transaction-type">
-                        PayPal
-                    </div>
-                </div>
-                <div class="item-transaction_transaction-amount ml-auto">
-                    +$1035.45
-                </div>
-            </a>
-            <a href="transaction-sent.html" class="item-transaction d-flex align-items-center">
-                <div class="item-transaction_transaction-image d-flex justify-content-center align-items-center">
-                    <img src="img/icons/apple-pay-icon.svg" alt="Apple Pay Icon">
-                </div>
-                <div class="item-transaction_transaction-title">
-                    App Store Purchase
-                    <div class="transaction-type">
-                        Apple Pay
-                    </div>
-                </div>
-                <div class="item-transaction_transaction-amount ml-auto negative">
-                    -$73.00
-                </div>
-            </a>
-            <a href="transaction-received.html" class="item-transaction d-flex align-items-center">
-                <div class="item-transaction_transaction-image d-flex justify-content-center align-items-center">
-                    <img src="img/transaction-img-2.jpg" class="border-50" alt="Transaction Image">
-                </div>
-                <div class="item-transaction_transaction-title">
-                    Amanda Bernshtein
-                    <div class="transaction-type">
-                        Transfer
-                    </div>
-                </div>
-                <div class="item-transaction_transaction-amount ml-auto">
-                    +$327.30
-                </div>
-            </a>
+            <div class="item-transaction_transaction-title">
+              George Amashukeli
+              <div class="transaction-type">Transfer</div>
+            </div>
+            <div class="item-transaction_transaction-amount ml-auto negative">
+              -$189.99
+            </div>
+          </a>
+          <a
+            href="transaction-received.html"
+            class="item-transaction d-flex align-items-center"
+          >
+            <div
+              class="item-transaction_transaction-image d-flex justify-content-center align-items-center"
+            >
+              <img src="img/icons/pay-pal-icon.svg" alt="PalPal Icon" />
+            </div>
+            <div class="item-transaction_transaction-title">
+              Digital Product
+              <div class="transaction-type">PayPal</div>
+            </div>
+            <div class="item-transaction_transaction-amount ml-auto">
+              +$1035.45
+            </div>
+          </a>
+          <a
+            href="transaction-sent.html"
+            class="item-transaction d-flex align-items-center"
+          >
+            <div
+              class="item-transaction_transaction-image d-flex justify-content-center align-items-center"
+            >
+              <img src="img/icons/apple-pay-icon.svg" alt="Apple Pay Icon" />
+            </div>
+            <div class="item-transaction_transaction-title">
+              App Store Purchase
+              <div class="transaction-type">Apple Pay</div>
+            </div>
+            <div class="item-transaction_transaction-amount ml-auto negative">
+              -$73.00
+            </div>
+          </a>
+          <a
+            href="transaction-received.html"
+            class="item-transaction d-flex align-items-center"
+          >
+            <div
+              class="item-transaction_transaction-image d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="img/transaction-img-2.jpg"
+                class="border-50"
+                alt="Transaction Image"
+              />
+            </div>
+            <div class="item-transaction_transaction-title">
+              Amanda Bernshtein
+              <div class="transaction-type">Transfer</div>
+            </div>
+            <div class="item-transaction_transaction-amount ml-auto">
+              +$327.30
+            </div>
+          </a>
         </div>
         <!-- Transactions Block End -->
 
@@ -581,23 +802,23 @@
 
         <!-- Cards Block Start -->
         <div class="cards-block information-block mt-3">
-            <div class="information-block_title d-flex justify-content-between align-items-center">
-                <div>
-                    MY CARDS
-                </div>
-                <a href="my-cards.html" class="text-underline">View All</a>
+          <div
+            class="information-block_title d-flex justify-content-between align-items-center"
+          >
+            <div>MIS TARJETAS</div>
+            <a href="my-cards.html" class="text-underline">Ver Todo</a>
+          </div>
+          <div class="cards-carousel owl-carousel">
+            <div class="item-card">
+              <img src="img/card-1.svg" alt="Card Image" />
             </div>
-            <div class="cards-carousel owl-carousel">
-                <div class="item-card">
-                    <img src="img/card-1.svg" alt="Card Image">
-                </div>
-                <div class="item-card">
-                    <img src="img/card-3.svg" alt="Card Image">
-                </div>
-                <div class="item-card">
-                    <img src="img/card-2.svg" alt="Card Image">
-                </div>
+            <div class="item-card">
+              <img src="img/card-3.svg" alt="Card Image" />
             </div>
+            <div class="item-card">
+              <img src="img/card-2.svg" alt="Card Image" />
+            </div>
+          </div>
         </div>
         <!-- Cards Block End -->
 
@@ -607,75 +828,75 @@
 
         <!-- Monthly BilLs Block Start -->
         <div class="monthly-bills-block information-block mt-3">
-            <div class="information-block_title d-flex justify-content-between align-items-center mb-3">
-                <div>
-                    MONTHLY BILLS
-                </div>
-                <a href="all-bills.html" class="text-underline">View All</a>
+          <div
+            class="information-block_title d-flex justify-content-between align-items-center mb-3"
+          >
+            <div>MONTHLY BILLS</div>
+            <a href="all-bills.html" class="text-underline">Ver Todo</a>
+          </div>
+          <div class="bills-carousel owl-carousel">
+            <div class="item-bill text-center">
+              <img
+                src="img/icons/water-bill.svg"
+                class="bill-icon"
+                alt="Water Bill"
+              />
+              <div class="bill-ammount">$19.50</div>
+              <div class="bill-title">Water Montly Subscription</div>
+              <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
             </div>
-            <div class="bills-carousel owl-carousel">
-                <div class="item-bill text-center">
-                    <img src="img/icons/water-bill.svg" class="bill-icon" alt="Water Bill">
-                    <div class="bill-ammount">
-                        $19.50
-                    </div>
-                    <div class="bill-title">
-                        Water Montly Subscription
-                    </div>
-                    <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
-                </div>
-                <div class="item-bill text-center">
-                    <img src="img/icons/energy-consumption.svg" class="bill-icon" alt="Water Bill">
-                    <div class="bill-ammount">
-                        $459.50
-                    </div>
-                    <div class="bill-title">
-                        Electric Montly Subscription
-                    </div>
-                    <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
-                </div>
-                <div class="item-bill text-center">
-                    <img src="img/icons/wifi.svg" class="bill-icon" alt="Water Bill">
-                    <div class="bill-ammount">
-                        $198.50
-                    </div>
-                    <div class="bill-title">
-                        Internet Montly Subscription
-                    </div>
-                    <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
-                </div>
+            <div class="item-bill text-center">
+              <img
+                src="img/icons/energy-consumption.svg"
+                class="bill-icon"
+                alt="Water Bill"
+              />
+              <div class="bill-ammount">$459.50</div>
+              <div class="bill-title">Electric Montly Subscription</div>
+              <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
+            </div>
+            <div class="item-bill text-center">
+              <img
+                src="img/icons/wifi.svg"
+                class="bill-icon"
+                alt="Water Bill"
+              />
+              <div class="bill-ammount">$198.50</div>
+              <div class="bill-title">Internet Montly Subscription</div>
+              <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
+            </div>
 
-                <div class="item-bill text-center">
-                    <img src="img/icons/smart-tv.svg" class="bill-icon" alt="Water Bill">
-                    <div class="bill-ammount">
-                        $15.55
-                    </div>
-                    <div class="bill-title">
-                        TV Montly Subscription
-                    </div>
-                    <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
-                </div>
-                <div class="item-bill text-center">
-                    <img src="img/icons/mobile_bill.svg" class="bill-icon" alt="Water Bill">
-                    <div class="bill-ammount">
-                        $25.73
-                    </div>
-                    <div class="bill-title">
-                        Mobile Montly Subscription
-                    </div>
-                    <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
-                </div>
-                <div class="item-bill text-center">
-                    <img src="img/icons/Insurance_bill.svg" class="bill-icon" alt="Insurance Bill">
-                    <div class="bill-ammount">
-                        $100.99
-                    </div>
-                    <div class="bill-title">
-                        Insurance Montly Subscription
-                    </div>
-                    <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
-                </div>
+            <div class="item-bill text-center">
+              <img
+                src="img/icons/smart-tv.svg"
+                class="bill-icon"
+                alt="Water Bill"
+              />
+              <div class="bill-ammount">$15.55</div>
+              <div class="bill-title">TV Montly Subscription</div>
+              <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
             </div>
+            <div class="item-bill text-center">
+              <img
+                src="img/icons/mobile_bill.svg"
+                class="bill-icon"
+                alt="Water Bill"
+              />
+              <div class="bill-ammount">$25.73</div>
+              <div class="bill-title">Mobile Montly Subscription</div>
+              <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
+            </div>
+            <div class="item-bill text-center">
+              <img
+                src="img/icons/Insurance_bill.svg"
+                class="bill-icon"
+                alt="Insurance Bill"
+              />
+              <div class="bill-ammount">$100.99</div>
+              <div class="bill-title">Insurance Montly Subscription</div>
+              <a href="#" class="btn btn-dark btn-pay">Pay Now</a>
+            </div>
+          </div>
         </div>
         <!-- Monthly BilLs Block End -->
 
@@ -685,70 +906,70 @@
 
         <!-- Send Money Block Start -->
         <div class="send-money-block information-block mt-3">
-            <div class="information-block_title d-flex justify-content-between align-items-center">
-                <div>
-                    SEND MONEY
-                </div>
-                <a href="#" class="text-underline">Add New</a>
+          <div
+            class="information-block_title d-flex justify-content-between align-items-center"
+          >
+            <div>SEND MONEY</div>
+            <a href="#" class="text-underline">Add New</a>
+          </div>
+          <div class="send-money-carousel owl-carousel">
+            <div class="item text-center">
+              <div
+                class="user-image-wrapper d-flex justify-content-center align-items-center"
+              >
+                <img src="img/user-1.jpg" alt="User Image" />
+              </div>
+              <div class="user-name">Laura</div>
             </div>
-            <div class="send-money-carousel owl-carousel">
-                <div class="item text-center">
-                    <div class="user-image-wrapper d-flex justify-content-center align-items-center">
-                        <img src="img/user-1.jpg" alt="User Image">
-                    </div>
-                    <div class="user-name">
-                        Laura
-                    </div>
-                </div>
-                <div class="item text-center">
-                    <div class="user-image-wrapper d-flex justify-content-center align-items-center">
-                        <img src="img/user-2.jpg" alt="User Image">
-                    </div>
-                    <div class="user-name">
-                        Daniel
-                    </div>
-                </div>
-                <div class="item text-center online">
-                    <div class="user-image-wrapper d-flex justify-content-center align-items-center">
-                        <img src="img/user-3.jpg" alt="User Image">
-                    </div>
-                    <div class="user-name">
-                        George
-                    </div>
-                </div>
-                <div class="item text-center">
-                    <div class="user-image-wrapper d-flex justify-content-center align-items-center">
-                        <img src="img/user-4.jpg" alt="User Image">
-                    </div>
-                    <div class="user-name">
-                        Maya
-                    </div>
-                </div>
-                <div class="item text-center">
-                    <div class="user-image-wrapper d-flex justify-content-center align-items-center">
-                        <img src="img/user-5.jpg" alt="User Image">
-                    </div>
-                    <div class="user-name">
-                        Paul
-                    </div>
-                </div>
-                <div class="item text-center online">
-                    <div class="user-image-wrapper d-flex justify-content-center align-items-center">
-                        <img src="img/user-6.jpg" alt="User Image">
-                    </div>
-                    <div class="user-name">
-                        Laura
-                    </div>
-                </div>
-                <div class="item text-center">
-                    <div class="user-image-wrapper d-flex justify-content-center align-items-center">
-                        <img src="img/user-7.jpg" alt="User Image">
-                    </div>
-                    <div class="user-name">
-                        Daniel
-                    </div>
-                </div>
+            <div class="item text-center">
+              <div
+                class="user-image-wrapper d-flex justify-content-center align-items-center"
+              >
+                <img src="img/user-2.jpg" alt="User Image" />
+              </div>
+              <div class="user-name">Daniel</div>
             </div>
+            <div class="item text-center online">
+              <div
+                class="user-image-wrapper d-flex justify-content-center align-items-center"
+              >
+                <img src="img/user-3.jpg" alt="User Image" />
+              </div>
+              <div class="user-name">George</div>
+            </div>
+            <div class="item text-center">
+              <div
+                class="user-image-wrapper d-flex justify-content-center align-items-center"
+              >
+                <img src="img/user-4.jpg" alt="User Image" />
+              </div>
+              <div class="user-name">Maya</div>
+            </div>
+            <div class="item text-center">
+              <div
+                class="user-image-wrapper d-flex justify-content-center align-items-center"
+              >
+                <img src="img/user-5.jpg" alt="User Image" />
+              </div>
+              <div class="user-name">Paul</div>
+            </div>
+            <div class="item text-center online">
+              <div
+                class="user-image-wrapper d-flex justify-content-center align-items-center"
+              >
+                <img src="img/user-6.jpg" alt="User Image" />
+              </div>
+              <div class="user-name">Laura</div>
+            </div>
+            <div class="item text-center">
+              <div
+                class="user-image-wrapper d-flex justify-content-center align-items-center"
+              >
+                <img src="img/user-7.jpg" alt="User Image" />
+              </div>
+              <div class="user-name">Daniel</div>
+            </div>
+          </div>
         </div>
         <!-- Send Money Block End -->
 
@@ -758,62 +979,52 @@
 
         <!-- Money Loan Block Start -->
         <div class="money-loan-block information-block mt-3">
-            <div class="information-block_title d-flex justify-content-between align-items-center">
-                <div>
-                    MONEY LOAN
+          <div
+            class="information-block_title d-flex justify-content-between align-items-center"
+          >
+            <div>MONEY LOAN</div>
+            <a href="#" class="text-underline">Ver Todo</a>
+          </div>
+          <div class="money-loan-carousel owl-carousel">
+            <div class="item">
+              <div class="graph-wrapper">
+                <img src="img/green-graph.svg" alt="Green Graph" />
+              </div>
+              <div class="graph-info">
+                <div class="graph-title">UNITS SALE</div>
+                <div class="numbers">1,956</div>
+                <div class="percents grow d-flex flex-row align-items-center">
+                  27%
                 </div>
-                <a href="#" class="text-underline">View All</a>
+              </div>
             </div>
-            <div class="money-loan-carousel owl-carousel">
-                <div class="item">
-                    <div class="graph-wrapper">
-                        <img src="img/green-graph.svg" alt="Green Graph">
-                    </div>
-                    <div class="graph-info">
-                        <div class="graph-title">
-                            UNITS SALE
-                        </div>
-                        <div class="numbers">
-                            1,956
-                        </div>
-                        <div class="percents grow d-flex flex-row align-items-center">
-                            27%
-                        </div>
-                    </div>
+            <div class="item">
+              <div class="graph-wrapper">
+                <img src="img/red-graph.svg" alt="Green Graph" />
+              </div>
+              <div class="graph-info">
+                <div class="graph-title">REVENUE</div>
+                <div class="numbers">$3.8k</div>
+                <div
+                  class="percents decrease d-flex flex-row align-items-center"
+                >
+                  12%
                 </div>
-                <div class="item">
-                    <div class="graph-wrapper">
-                        <img src="img/red-graph.svg" alt="Green Graph">
-                    </div>
-                    <div class="graph-info">
-                        <div class="graph-title">
-                            REVENUE
-                        </div>
-                        <div class="numbers">
-                            $3.8k
-                        </div>
-                        <div class="percents decrease d-flex flex-row align-items-center">
-                            12%
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="graph-wrapper">
-                        <img src="img/green-graph.svg" alt="Green Graph">
-                    </div>
-                    <div class="graph-info">
-                        <div class="graph-title">
-                            UNITS SALE
-                        </div>
-                        <div class="numbers">
-                            1,956
-                        </div>
-                        <div class="percents grow d-flex flex-row align-items-center">
-                            27%
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="item">
+              <div class="graph-wrapper">
+                <img src="img/green-graph.svg" alt="Green Graph" />
+              </div>
+              <div class="graph-info">
+                <div class="graph-title">UNITS SALE</div>
+                <div class="numbers">1,956</div>
+                <div class="percents grow d-flex flex-row align-items-center">
+                  27%
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- Money Loan Block End -->
 
@@ -823,81 +1034,78 @@
 
         <!-- Saving Goals Block Start -->
         <div class="saving-goals-block information-block mt-3">
-            <div class="information-block_title d-flex justify-content-between align-items-center">
-                <div>
-                    SAVING GOALS
-                </div>
-                <a href="all-savings.html" class="text-underline">View All</a>
+          <div
+            class="information-block_title d-flex justify-content-between align-items-center"
+          >
+            <div>SAVING GOALS</div>
+            <a href="all-savings.html" class="text-underline">Ver Todo</a>
+          </div>
+          <div class="item-saving-goal gaming">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+              <div>
+                <div class="title">Gaming Console</div>
+                <div class="category">Gaming</div>
+              </div>
+              <div class="saved-amount">$189.99</div>
             </div>
-            <div class="item-saving-goal gaming">
-                <div class="d-flex justify-content-between align-items-start mb-3">
-                    <div>
-                        <div class="title">
-                            Gaming Console
-                        </div>
-                        <div class="category">
-                            Gaming
-                        </div>
-                    </div>
-                    <div class="saved-amount">
-                        $189.99
-                    </div>
-                </div>
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="progress w-100">
-                        <div class="progress-bar" role="progressbar" style="width: 67%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="percent-progress ml-3">
-                        67%
-                    </div>
-                </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="progress w-100">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 67%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="percent-progress ml-3">67%</div>
             </div>
-            <div class="item-saving-goal livign">
-                <div class="d-flex justify-content-between align-items-start mb-3">
-                    <div>
-                        <div class="title">
-                            New House
-                        </div>
-                        <div class="category">
-                            Living
-                        </div>
-                    </div>
-                    <div class="saved-amount">
-                        $100,000.00
-                    </div>
-                </div>
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="progress w-100">
-                        <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="percent-progress ml-3">
-                        55%
-                    </div>
-                </div>                
+          </div>
+          <div class="item-saving-goal livign">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+              <div>
+                <div class="title">New House</div>
+                <div class="category">Living</div>
+              </div>
+              <div class="saved-amount">$100,000.00</div>
             </div>
-            <div class="item-saving-goal lifestyle">
-                <div class="d-flex justify-content-between align-items-start mb-3">
-                    <div>
-                        <div class="title">
-                            Sport Car
-                        </div>
-                        <div class="category">
-                            Lifestyle
-                        </div>
-                    </div>
-                    <div class="saved-amount">
-                        $42,000.00
-                    </div>
-                </div>
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="progress w-100">
-                        <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="percent-progress ml-3">
-                        15%
-                    </div>
-                </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="progress w-100">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 55%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="percent-progress ml-3">55%</div>
             </div>
+          </div>
+          <div class="item-saving-goal lifestyle">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+              <div>
+                <div class="title">Sport Car</div>
+                <div class="category">Lifestyle</div>
+              </div>
+              <div class="saved-amount">$42,000.00</div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="progress w-100">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 15%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="percent-progress ml-3">15%</div>
+            </div>
+          </div>
         </div>
         <!-- Saving Goals Block End -->
 
@@ -907,122 +1115,128 @@
 
         <!-- Latest News Block Start -->
         <div class="latest-news-block information-block mt-3">
-            <div class="information-block_title d-flex justify-content-between align-items-center">
-                <div>
-                    LATEST NEWS
+          <div
+            class="information-block_title d-flex justify-content-between align-items-center"
+          >
+            <div>LATEST NEWS</div>
+            <a href="blog.html" class="text-underline">Ver Todo</a>
+          </div>
+          <div class="latest-news-carousel owl-carousel">
+            <div class="item-news">
+              <div class="news-thumbnail">
+                <a href="single-article.html">
+                  <img src="img/news-image-1.jpg" alt="News Image" />
+                </a>
+              </div>
+              <div class="news-content">
+                <div
+                  class="news-info d-flex justify-content-between align-items-center"
+                >
+                  <div class="news-views-comments">
+                    6.8K view - 379 comments
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="new-bookmark">
+                      <i class="fal fa-bookmark"></i>
+                    </div>
+                    <div class="news-share ml-2">
+                      <i class="fal fa-share-alt"></i>
+                    </div>
+                  </div>
                 </div>
-                <a href="blog.html" class="text-underline">View All</a>
+                <div class="news-title">
+                  <a href="single-article.html">
+                    Lorem Ipsum Dolores Sit Amet Concateur.
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="latest-news-carousel owl-carousel">
-                <div class="item-news">
-                    <div class="news-thumbnail">
-                        <a href="single-article.html">
-                            <img src="img/news-image-1.jpg" alt="News Image">
-                        </a>
+            <div class="item-news">
+              <div class="news-thumbnail">
+                <a href="single-article.html">
+                  <img src="img/news-image.jpg" alt="News Image" />
+                </a>
+              </div>
+              <div class="news-content">
+                <div
+                  class="news-info d-flex justify-content-between align-items-center"
+                >
+                  <div class="news-views-comments">386 view - 28 comments</div>
+                  <div class="d-flex align-items-center">
+                    <div class="new-bookmark">
+                      <i class="fal fa-bookmark"></i>
                     </div>
-                    <div class="news-content">
-                        <div class="news-info d-flex justify-content-between align-items-center">
-                            <div class="news-views-comments">
-                                6.8K view -  379 comments
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <div class="new-bookmark">
-                                    <i class="fal fa-bookmark"></i>
-                                </div>
-                                <div class="news-share ml-2">
-                                    <i class="fal fa-share-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-title">
-                            <a href="single-article.html">
-                                Lorem Ipsum Dolores Sit Amet Concateur.
-                            </a>
-                        </div>
+                    <div class="news-share ml-2">
+                      <i class="fal fa-share-alt"></i>
                     </div>
+                  </div>
                 </div>
-                <div class="item-news">
-                    <div class="news-thumbnail">
-                        <a href="single-article.html">
-                            <img src="img/news-image.jpg" alt="News Image">
-                        </a>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-info d-flex justify-content-between align-items-center">
-                            <div class="news-views-comments">
-                                386 view -  28 comments
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <div class="new-bookmark">
-                                    <i class="fal fa-bookmark"></i>
-                                </div>
-                                <div class="news-share ml-2">
-                                    <i class="fal fa-share-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-title">
-                            <a href="single-article.html">
-                                Lorem Ipsum Dolor Sit Amet.
-                            </a>
-                        </div>
-                    </div>
+                <div class="news-title">
+                  <a href="single-article.html">
+                    Lorem Ipsum Dolor Sit Amet.
+                  </a>
                 </div>
-                <div class="item-news">
-                    <div class="news-thumbnail">
-                        <a href="single-article.html">
-                            <img src="img/news-image-2.jpg" alt="News Image">
-                        </a>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-info d-flex justify-content-between align-items-center">
-                            <div class="news-views-comments">
-                                6.8K view -  379 comments
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <div class="new-bookmark">
-                                    <i class="fal fa-bookmark"></i>
-                                </div>
-                                <div class="news-share ml-2">
-                                    <i class="fal fa-share-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-title">
-                            <a href="single-article.html">
-                                Lorem Ipsum Dolores Sit Amet Concateur.
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-news">
-                    <div class="news-thumbnail">
-                        <a href="single-article.html">
-                            <img src="img/news-image-3.jpg" alt="News Image">
-                        </a>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-info d-flex justify-content-between align-items-center">
-                            <div class="news-views-comments">
-                                6.8K view -  379 comments
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <div class="new-bookmark">
-                                    <i class="fal fa-bookmark"></i>
-                                </div>
-                                <div class="news-share ml-2">
-                                    <i class="fal fa-share-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-title">
-                            <a href="single-article.html">
-                                Lorem Ipsum Dolores Sit Amet Concateur.
-                            </a>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="item-news">
+              <div class="news-thumbnail">
+                <a href="single-article.html">
+                  <img src="img/news-image-2.jpg" alt="News Image" />
+                </a>
+              </div>
+              <div class="news-content">
+                <div
+                  class="news-info d-flex justify-content-between align-items-center"
+                >
+                  <div class="news-views-comments">
+                    6.8K view - 379 comments
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="new-bookmark">
+                      <i class="fal fa-bookmark"></i>
+                    </div>
+                    <div class="news-share ml-2">
+                      <i class="fal fa-share-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-title">
+                  <a href="single-article.html">
+                    Lorem Ipsum Dolores Sit Amet Concateur.
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item-news">
+              <div class="news-thumbnail">
+                <a href="single-article.html">
+                  <img src="img/news-image-3.jpg" alt="News Image" />
+                </a>
+              </div>
+              <div class="news-content">
+                <div
+                  class="news-info d-flex justify-content-between align-items-center"
+                >
+                  <div class="news-views-comments">
+                    6.8K view - 379 comments
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="new-bookmark">
+                      <i class="fal fa-bookmark"></i>
+                    </div>
+                    <div class="news-share ml-2">
+                      <i class="fal fa-share-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-title">
+                  <a href="single-article.html">
+                    Lorem Ipsum Dolores Sit Amet Concateur.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- Latest News Block End -->
 
@@ -1031,94 +1245,111 @@
         <!-- Devide End -->
 
         <!-- Copyright Block Start -->
-<div class="copyright-block copyright-big text-center">
-    <div class="top-block">
-        Copyright &copy; <span>Fin</span><span>Hit</span> 2021. All Rights Reserved.
-    </div>
-    Wallet UI Kit for Mobile Application.
-</div>
-<!-- Copyright Block End -->
-        
+        <div class="copyright-block copyright-big text-center">
+          <div class="top-block">
+            Copyright &copy; <span>Fin</span><span>Hit</span> 2021. All Rights
+            Reserved.
+          </div>
+          Wallet UI Kit for Mobile Application.
+        </div>
+        <!-- Copyright Block End -->
       </div>
       <!-- All Content End -->
-    </div>   
-    
-    <!-- Footer Start -->
-<div class="main-footer w-100">
-    <div class="top-row"></div>        
-    <div class="bottom-row d-flex justify-content-between align-items-center">
+    </div>
 
+    <!-- Footer Start -->
+    <div class="main-footer w-100">
+      <div class="top-row"></div>
+      <div class="bottom-row d-flex justify-content-between align-items-center">
         <!-- Menu Item Start -->
         <div class="footer-menu-item text-center item-overview">
-            <a href="home.html" class="no-text-decoration">
-                <img src="img/icons/overviews.svg" class="pasive" alt="Overview Icon">
-                <img src="img/icons/overviews-active.svg" class="active" alt="Overview Active Icon">
-                <div class="menu-title">
-                    Overview
-                </div>
-            </a>
+          <a href="home.html" class="no-text-decoration">
+            <img
+              src="img/icons/overviews.svg"
+              class="pasive"
+              alt="Overview Icon"
+            />
+            <img
+              src="img/icons/overviews-active.svg"
+              class="active"
+              alt="Overview Active Icon"
+            />
+            <div class="menu-title">Overview</div>
+          </a>
         </div>
         <!-- Menu Item End -->
 
         <!-- Menu Item Start -->
         <div class="footer-menu-item text-center item-pages">
-            <a href="all-pages.html" class="no-text-decoration">
-                <img src="img/icons/pages.svg" class="pasive" alt="Pages Icon">
-                <img src="img/icons/pages-active.svg" class="active" alt="Pages Active Icon">
-                <div class="menu-title">
-                    Pages
-                    <div class="notification-number">2</div>
-                </div>
-            </a>
+          <a href="all-pages.html" class="no-text-decoration">
+            <img src="img/icons/pages.svg" class="pasive" alt="Pages Icon" />
+            <img
+              src="img/icons/pages-active.svg"
+              class="active"
+              alt="Pages Active Icon"
+            />
+            <div class="menu-title">
+              Pages
+              <div class="notification-number">2</div>
+            </div>
+          </a>
         </div>
         <!-- Menu Item End -->
 
         <!-- Menu Item Start -->
         <div class="footer-menu-item text-center item-components">
-            <a href="components.html" class="no-text-decoration">
-                <img src="img/icons/components.svg" class="pasive" alt="Components Icon">
-                <img src="img/icons/components-active.svg" class="active" alt="Components Icon">
-                <div class="menu-title">
-                    Components
-                </div>
-            </a>
+          <a href="components.html" class="no-text-decoration">
+            <img
+              src="img/icons/components.svg"
+              class="pasive"
+              alt="Components Icon"
+            />
+            <img
+              src="img/icons/components-active.svg"
+              class="active"
+              alt="Components Icon"
+            />
+            <div class="menu-title">Components</div>
+          </a>
         </div>
         <!-- Menu Item End -->
 
         <!-- Menu Item Start -->
         <div class="footer-menu-item text-center item-cards">
-            <a href="my-cards.html" class="no-text-decoration">
-                <img src="img/icons/card.svg" class="pasive" alt="My Cards Icon">
-                <div class="menu-title">
-                    My Cards
-                </div>
-            </a>
+          <a href="my-cards.html" class="no-text-decoration">
+            <img src="img/icons/card.svg" class="pasive" alt="My Cards Icon" />
+            <div class="menu-title">My Cards</div>
+          </a>
         </div>
         <!-- Menu Item End -->
 
         <!-- Menu Item Start -->
         <div class="footer-menu-item text-center item-settings">
-            <a href="settings.html" class="no-text-decoration">
-                <img src="img/icons/settings.svg" class="pasive" alt="Settings Icon">
-                <img src="img/icons/settings-active.svg" class="active" alt="Settings Active Icon">
-                <div class="menu-title">
-                    Settings
-                </div>
-            </a>
+          <a href="settings.html" class="no-text-decoration">
+            <img
+              src="img/icons/settings.svg"
+              class="pasive"
+              alt="Settings Icon"
+            />
+            <img
+              src="img/icons/settings-active.svg"
+              class="active"
+              alt="Settings Active Icon"
+            />
+            <div class="menu-title">Settings</div>
+          </a>
         </div>
         <!-- Menu Item End -->
-
+      </div>
     </div>
-</div>
-<!-- Footer End -->
+    <!-- Footer End -->
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-3.4.1.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/Chart.bundle.min.js"></script>
-<script src="js/script.js"></script>
-
-</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/Chart.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
